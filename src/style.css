@@ -15,10 +15,6 @@
         @apply py-0.5 px-2 text-sm;
     }
 
-    .stats-table td:first-of-type {
-        @apply pl-0;
-    }
-
     .h1 {
         @apply text-xl font-bold tracking-tight;
     }

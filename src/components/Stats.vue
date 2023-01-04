@@ -24,6 +24,54 @@
             <td colspan="2" class="font-bold">Special Bonuses</td>
         </tr>
         <tr>
+            <td class="bg-ngu-energy/20">Energy Power</td>
+            <td>+{{ ePower }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-magic/20">Magic Power</td>
+            <td>+{{ mPower }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-three/20">Three Power</td>
+            <td>+{{ threePower }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-energy/20">Energy Bars</td>
+            <td>+{{ eBars }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-magic/20">Magic Bars</td>
+            <td>+{{ mBars }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-three/20">Three Bars</td>
+            <td>+{{ threeBars }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-energy/20">Energy Cap</td>
+            <td>+{{ eCap }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-magic/20">Magic Cap</td>
+            <td>+{{ mCap }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-three/20">Three Cap</td>
+            <td>+{{ threeCap }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-energy/20">Energy Speed</td>
+            <td>+{{ eSpeed }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-magic/20">Magic Speed</td>
+            <td>+{{ mSpeed }}</td>
+        </tr>
+        <tr>
+            <td class="bg-ngu-three/20">Three Speed</td>
+            <td>+{{ threeSpeed }}</td>
+        </tr>
+        <tr>
             <td>Drop Chance</td>
             <td>+{{ dropChance }}</td>
         </tr>
@@ -40,38 +88,6 @@
             <td>+{{ respawn }}</td>
         </tr>
         <tr>
-            <td>Magic Power</td>
-            <td>+{{ ePower }}</td>
-        </tr>
-        <tr>
-            <td>Energy Power</td>
-            <td>+{{ mPower }}</td>
-        </tr>
-        <tr>
-            <td>Magic Bars</td>
-            <td>+{{ eBars }}</td>
-        </tr>
-        <tr>
-            <td>Energy Bars</td>
-            <td>+{{ mBars }}</td>
-        </tr>
-        <tr>
-            <td>Magic Cap</td>
-            <td>+{{ eCap }}</td>
-        </tr>
-        <tr>
-            <td>Energy Cap</td>
-            <td>+{{ mCap }}</td>
-        </tr>
-        <tr>
-            <td>Magic Speed</td>
-            <td>+{{ eSpeed }}</td>
-        </tr>
-        <tr>
-            <td>Energy Speed</td>
-            <td>+{{ mSpeed }}</td>
-        </tr>
-        <tr>
             <td>NGU Speed</td>
             <td>+{{ nguSpeed }}</td>
         </tr>
@@ -84,8 +100,8 @@
             <td>+{{ questDrops }}</td>
         </tr>
         <tr>
-            <td>Three Power</td>
-            <td>+{{ threePower }}</td>
+            <td>Move Cooldown</td>
+            <td>+{{ moveCooldown }}</td>
         </tr>
         <tr>
             <td colspan="2"></td>
@@ -146,11 +162,17 @@ export default {
         mPower () {
             return calculatePercentBonus(this.item.bonus?.mPower);
         },
+        threePower () {
+            return calculatePercentBonus(this.item.bonus?.respawn);
+        },
         eBars () {
             return calculatePercentBonus(this.item.bonus?.eBars);
         },
         mBars () {
             return calculatePercentBonus(this.item.bonus?.mBars);
+        },
+        threeBars () {
+            return calculatePercentBonus(this.item.bonus?.threeBars);
         },
         eCap () {
             return calculatePercentBonus(this.item.bonus?.eCap);
@@ -158,11 +180,17 @@ export default {
         mCap () {
             return calculatePercentBonus(this.item.bonus?.mCap);
         },
+        threeCap () {
+            return calculatePercentBonus(this.item.bonus?.threeCap);
+        },
         eSpeed () {
             return calculatePercentBonus(this.item.bonus?.eSpeed);
         },
         mSpeed () {
             return calculatePercentBonus(this.item.bonus?.mSpeed);
+        },
+        threeSpeed () {
+            return calculatePercentBonus(this.item.bonus?.threeSpeed);
         },
         nguSpeed () {
             return calculatePercentBonus(this.item.bonus?.nguSpeed);
@@ -173,8 +201,8 @@ export default {
         questDrops () {
             return calculatePercentBonus(this.item.bonus?.questDrops);
         },
-        threePower () {
-            return calculatePercentBonus(this.item.bonus?.respawn);
+        moveCooldown () {
+            return calculatePercentBonus(this.item.bonus?.moveCooldown);
         },
         attack () {
             return calculateBonus(this.item.bonus?.attack);

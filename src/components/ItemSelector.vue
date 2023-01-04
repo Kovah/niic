@@ -1,12 +1,12 @@
 <template>
     <div v-show="store.itemSelector.isOpen" class="absolute z-30 left-0 top-0 right-0 bottom-0 bg-gray-900/70">
-        <div class="container mx-auto h-screen flex flex-row justify-center items-center">
-            <div class="bg-gray-900 rounded-xl border border-gray-900 w-full max-w-xl shadow-xl">
+        <div class="container mx-auto pt-10">
+            <div class="bg-gray-900 rounded-xl border border-gray-900 w-full max-w-xl mx-auto shadow-xl">
                 <div class="rounded-xl border border-gray-700 p-4">
 
                     <h2 class="h2 mb-4">Item Select</h2>
 
-                    <div class="text-xs">Filter Items</div>
+                    <div class="text-xs text-gray-400 mb-1">Filter Items</div>
                     <div class="mb-4 space-x-1">
                         <button class="btn" v-on:click="toggleFilter('head', $event)">Head</button>
                         <button class="btn" v-on:click="toggleFilter('chest', $event)">Chest</button>
@@ -17,7 +17,7 @@
                     </div>
 
                     <div class="flex flex-wrap">
-                        <div class="w-10 h-10 border-2 border-gray-700 text-xs break-words cursor-pointer"
+                        <div class="w-12 h-12 border-2 border-gray-700 text-xs break-words cursor-pointer"
                             v-for="item in itemList" v-on:click="applyItem(item)">
                             <img :src="'/items/' + item.id + '.png'" :alt="item.name">
                         </div>

@@ -2,6 +2,7 @@
     {
         "id": "CrappyHelmet",
         "name": "Crappy Hemlet",
+        "set": "Sewers",
         "type": "head",
         "bonus": {
             "toughness": 5,
@@ -11,6 +12,7 @@
     {
         "id": "CrappyChestplate",
         "name": "Crappy Chestplate",
+        "set": "Sewers",
         "type": "chest",
         "bonus": {
             "toughness": 5,
@@ -21,6 +23,7 @@
     {
         "id": "CrappyLeggings",
         "name": "Crappy Leggings",
+        "set": "Sewers",
         "type": "legs",
         "bonus": {
             "toughness": 5,
@@ -30,6 +33,7 @@
     {
         "id": "CrappyBoots",
         "name": "Crappy Boots",
+        "set": "Sewers",
         "type": "boots",
         "bonus": {
             "toughness": 5,
@@ -40,6 +44,7 @@
     {
         "id": "RustySword",
         "name": "Rusty Sword",
+        "set": "Sewers",
         "type": "weapon",
         "bonus": {
             "power": 20,
@@ -49,6 +54,7 @@
     {
         "id": "GrossRing",
         "name": "Gross Ring",
+        "set": "Sewers",
         "type": "accessory",
         "bonus": {
             "power": 1,
@@ -61,12 +67,228 @@
     {
         "id": "CrackedAmulet",
         "name": "Cracked Amulet",
+        "set": "Sewers",
         "type": "accessory",
         "bonus": {
             "power": 5,
             "toughness": 5,
             "maxHP": 15,
             "hpRegen": 0.15
+        }
+    },
+    {
+        "id": "ForestHelmet",
+        "name": "Forest Helmet",
+        "set": "Forest",
+        "type": "head",
+        "bonus": {
+            "toughness": 20,
+            "hpRegen": 0.6,
+            "ePower": 10,
+            "eSpeed": 12
+        }
+    },
+    {
+        "id": "ForestChestplate",
+        "name": "Forest Chestplate",
+        "set": "Forest",
+        "type": "chest",
+        "bonus": {
+            "toughness": 20,
+            "hpRegen": 0.6,
+            "ePower": 12,
+            "eSpeed": 8
+        }
+    },
+    {
+        "id": "ForestLeggings",
+        "name": "Forest Leggings",
+        "set": "Forest",
+        "type": "chest",
+        "bonus": {
+            "toughness": 20,
+            "hpRegen": 0.6,
+            "eSpeed": 8
+        }
+    },
+    {
+        "id": "ForestBoots",
+        "name": "Forest Boots",
+        "set": "Forest",
+        "type": "boots",
+        "bonus": {
+            "power": 5,
+            "toughness": 5,
+            "maxHP": 15,
+            "hpRegen": 0.15
+        }
+    },
+    {
+        "id": "KokiriBlade",
+        "name": "Kokiri Blade",
+        "set": "Forest",
+        "type": "weapon",
+        "bonus": {
+            "power": 80,
+            "maxHP": 240,
+            "ePower": 10
+        }
+    },
+    {
+        "id": "MossyRing",
+        "name": "Mossy Ring",
+        "set": "Forest",
+        "type": "accessory",
+        "bonus": {
+            "power": 8,
+            "toughness": 8,
+            "maxHP": 24,
+            "hpRegen": 0.24,
+            "eSpeed": 20
+        }
+    },
+    {
+        "id": "ForestPendant",
+        "name": "Forest Pendant",
+        "set": "Forest",
+        "type": "accessory",
+        "bonus": {}
+    },
+    {
+        "id": "BlueCheeseHelmet",
+        "name": "Blue Cheese Helmet",
+        "set": "Cave",
+        "type": "head",
+        "bonus": {
+            "toughness": 50,
+            "hpRegen": 1.5,
+            "mPower": 7
+        }
+    },
+    {
+        "id": "GoudaChestplate",
+        "name": "Gouda Chestplate",
+        "set": "Cave",
+        "type": "chest",
+        "bonus": {
+            "toughness": 50,
+            "hpRegen": 1.5,
+            "mPower": 13
+        }
+    },
+    {
+        "id": "SwissLeggings",
+        "name": "Swiss Leggings",
+        "set": "Cave",
+        "type": "legs",
+        "bonus": {
+            "toughness": 50,
+            "hpRegen": 1.5,
+            "mSpeed": 10
+        }
+    },
+    {
+        "id": "LimburgerBoots",
+        "name": "Limburger Boots",
+        "set": "Cave",
+        "type": "boots",
+        "bonus": {
+            "toughness": 50,
+            "hpRegen": 1.5,
+            "mPower": 10,
+            "mSpeed": 10
+        }
+    },
+    {
+        "id": "MoleHammer",
+        "name": "Mole Hammer",
+        "set": "Cave",
+        "type": "weapon",
+        "bonus": {
+            "power": 200,
+            "maxHP": 600,
+            "eBars": 15
+        }
+    },
+    {
+        "id": "HavartiRing",
+        "name": "Havarti Ring",
+        "set": "Cave",
+        "type": "accessory",
+        "bonus": {
+            "power": 4,
+            "toughness": 4,
+            "maxHP": 12,
+            "hpRegen": 0.12,
+            "mPower": 25,
+            "mSpeed": 25
+        }
+    },
+    {
+        "id": "CheddarAmulet",
+        "name": "Cheddar Amulet",
+        "set": "Cave",
+        "type": "accessory",
+        "bonus": {
+            "power": 1,
+            "toughness": 1,
+            "maxHP": 3,
+            "hpRegen": 0.03,
+            "ePower": 30,
+            "eSpeed": 60
+        }
+    },
+    {
+        "id": "CombatCheese",
+        "name": "Combat Cheese",
+        "set": "Cave",
+        "type": "accessory",
+        "bonus": {
+            "power": 30,
+            "toughness": 30,
+            "maxHP": 90,
+            "hpRegen": 0.9,
+            "goldDrops": 10
+        }
+    },
+    {
+        "id": "ClothHat",
+        "name": "Cloth Hat",
+        "set": "Training",
+        "type": "head",
+        "bonus": {
+            "toughness": 1,
+            "hpRegen": 0.03
+        }
+    },
+    {
+        "id": "ClothShirt",
+        "name": "Cloth Shirt",
+        "set": "Training",
+        "type": "chest",
+        "bonus": {
+            "toughness": 1,
+            "hpRegen": 0.03
+        }
+    },
+    {
+        "id": "ClothLeggings",
+        "name": "Cloth Leggings",
+        "set": "Training",
+        "type": "legs",
+        "bonus": {
+            "toughness": 1,
+            "hpRegen": 0.03
+        }
+    },
+    {
+        "id": "ClothBoots",
+        "name": "Cloth Boots",
+        "set": "Training",
+        "type": "boots",
+        "bonus": {
+            "toughness": 1,
+            "hpRegen": 0.03
         }
     }
 ]

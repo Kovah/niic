@@ -1,19 +1,65 @@
 [
     {
-        "id": "crappyhelmet",
+        "id": "CrappyHelmet",
         "name": "Crappy Hemlet",
         "bonus": {
             "toughness": 5,
-            "hpregen": 0.15
+            "healthRegen": 0.15
         }
     },
     {
-        "id": "crappychestplate",
+        "id": "CrappyChestplate",
         "name": "Crappy Chestplate",
         "bonus": {
             "toughness": 5,
-            "hpregen": 0.15,
-            "espeed": 3
+            "healthRegen": 0.15,
+            "eSpeed": 3
+        }
+    },
+    {
+        "id": "CrappyLeggings",
+        "name": "Crappy Leggings",
+        "bonus": {
+            "toughness": 5,
+            "healthRegen": 0.15
+        }
+    },
+    {
+        "id": "CrappyBoots",
+        "name": "Crappy Boots",
+        "bonus": {
+            "toughness": 5,
+            "healthRegen": 0.15,
+            "eSpeed": 3
+        }
+    },
+    {
+        "id": "RustySword",
+        "name": "Rusty Sword",
+        "bonus": {
+            "power": 20,
+            "maxHealth": 60
+        }
+    },
+    {
+        "id": "GrossRing",
+        "name": "Gross Ring",
+        "bonus": {
+            "power": 1,
+            "toughness": 1,
+            "maxHealth": 3,
+            "healthRegen": 0.03,
+            "eSpeed": 20
+        }
+    },
+    {
+        "id": "CrackedAmulet",
+        "name": "Cracked Amulet",
+        "bonus": {
+            "power": 5,
+            "toughness": 5,
+            "maxHealth": 15,
+            "healthRegen": 0.15
         }
     }
 ]

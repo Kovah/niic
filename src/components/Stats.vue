@@ -22,78 +22,88 @@
         </tr>
         <tr>
             <td>Drop Chance</td>
-            <td>+0%</td>
+            <td>+{{ dropChance }}</td>
         </tr>
         <tr>
             <td>Gold Drops</td>
-            <td>+0%</td>
+            <td>+{{ goldDrops }}</td>
         </tr>
         <tr>
             <td>Seed Gain</td>
-            <td>+0%</td>
+            <td>+{{ seedGain }}</td>
         </tr>
         <tr>
             <td>Respawn</td>
-            <td>+0%</td>
+            <td>+{{ respawn }}</td>
         </tr>
         <tr>
             <td>Magic Power</td>
-            <td>+0%</td>
+            <td>+{{ ePower }}</td>
         </tr>
         <tr>
             <td>Energy Power</td>
-            <td>+0%</td>
+            <td>+{{ mPower }}</td>
         </tr>
         <tr>
             <td>Magic Bars</td>
-            <td>+0%</td>
+            <td>+{{ eBars }}</td>
         </tr>
         <tr>
             <td>Energy Bars</td>
-            <td>+0%</td>
+            <td>+{{ mBars }}</td>
         </tr>
         <tr>
             <td>Magic Cap</td>
-            <td>+0%</td>
+            <td>+{{ eCap }}</td>
         </tr>
         <tr>
             <td>Energy Cap</td>
-            <td>+0%</td>
+            <td>+{{ mCap }}</td>
+        </tr>
+        <tr>
+            <td>Magic Speed</td>
+            <td>+{{ eSpeed }}</td>
+        </tr>
+        <tr>
+            <td>Energy Speed</td>
+            <td>+{{ mSpeed }}</td>
         </tr>
         <tr>
             <td>NGU Speed</td>
-            <td>+0%</td>
+            <td>+{{ nguSpeed }}</td>
         </tr>
         <tr>
             <td>Daycare Speed</td>
-            <td>+0%</td>
+            <td>+{{ daycareSpeed }}</td>
         </tr>
         <tr>
             <td>Quest Drops</td>
-            <td>+0%</td>
+            <td>+{{ questDrops }}</td>
         </tr>
         <tr>
             <td>Three Power</td>
-            <td>+0%</td>
+            <td>+{{ threePower }}</td>
         </tr>
         <tr>
             <td colspan="2" class="font-bold">Player Stat Boosts</td>
         </tr>
         <tr>
             <td>Attack</td>
-            <td>+0%</td>
+            <td>+{{ attack }}</td>
         </tr>
         <tr>
             <td>Defense</td>
-            <td>+0%</td>
+            <td>+{{ defense }}</td>
         </tr>
     </table>
 </template>
 
 <script>
 function calculateBonus (itemBonus) {
-    const bonus = 0 + (typeof itemBonus === 'number' ? itemBonus : 0);
-    return bonus + '%';
+    return 0 + (typeof itemBonus === 'number' ? itemBonus : 0);
+}
+function calculatePercentBonus (itemBonus) {
+    return calculateBonus(itemBonus) + '%';
 }
 
 export default {
@@ -111,6 +121,60 @@ export default {
         },
         healthRegen () {
             return calculateBonus(this.item.bonus?.healthRegen);
+        },
+        dropChance () {
+            return calculatePercentBonus(this.item.bonus?.dropChance);
+        },
+        goldDrops () {
+            return calculatePercentBonus(this.item.bonus?.goldDrops);
+        },
+        seedGain () {
+            return calculatePercentBonus(this.item.bonus?.seedGain);
+        },
+        respawn () {
+            return calculatePercentBonus(this.item.bonus?.respawn);
+        },
+        ePower () {
+            return calculatePercentBonus(this.item.bonus?.ePower);
+        },
+        mPower () {
+            return calculatePercentBonus(this.item.bonus?.mPower);
+        },
+        eBars () {
+            return calculatePercentBonus(this.item.bonus?.eBars);
+        },
+        mBars () {
+            return calculatePercentBonus(this.item.bonus?.mBars);
+        },
+        eCap () {
+            return calculatePercentBonus(this.item.bonus?.eCap);
+        },
+        mCap () {
+            return calculatePercentBonus(this.item.bonus?.mCap);
+        },
+        eSpeed () {
+            return calculatePercentBonus(this.item.bonus?.eSpeed);
+        },
+        mSpeed () {
+            return calculatePercentBonus(this.item.bonus?.mSpeed);
+        },
+        nguSpeed () {
+            return calculatePercentBonus(this.item.bonus?.nguSpeed);
+        },
+        daycareSpeed () {
+            return calculatePercentBonus(this.item.bonus?.daycareSpeed);
+        },
+        questDrops () {
+            return calculatePercentBonus(this.item.bonus?.questDrops);
+        },
+        threePower () {
+            return calculatePercentBonus(this.item.bonus?.respawn);
+        },
+        attack () {
+            return calculateBonus(this.item.bonus?.attack);
+        },
+        defense () {
+            return calculateBonus(this.item.bonus?.defense);
         }
     }
 };

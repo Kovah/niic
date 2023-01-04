@@ -11,8 +11,23 @@
         @apply px-3;
     }
 
-    .stats-table td {
-        @apply py-0.5 px-2 text-sm;
+    .icon {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        font-size: inherit;
+        line-height: 1;
+        width: 1em;
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.125em;
+    }
+
+    .icon path {
+        fill: currentColor;
     }
 
     .h1 {
@@ -46,5 +61,17 @@
 
     .btn.btn-active::after {
         @apply border-gray-500;
+    }
+
+    .stats-table td {
+        @apply py-0.5 px-2 text-sm;
+    }
+
+    .stats-table th {
+        @apply py-0.5 px-2 text-left text-xs font-bold uppercase;
+    }
+
+    .stats-table .divider {
+        @apply h-3;
     }
 }

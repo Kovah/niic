@@ -1,6 +1,7 @@
 <script setup>
 import Item from './Item.vue';
-import ItemSelector from './ItemSelector.vue';</script>
+import ItemSelector from './ItemSelector.vue';
+</script>
 
 <template>
     <main class="app">

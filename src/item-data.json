@@ -1,0 +1,19 @@
+[
+    {
+        "id": "crappyhelmet",
+        "name": "Crappy Hemlet",
+        "bonus": {
+            "toughness": 5,
+            "hpregen": 0.15
+        }
+    },
+    {
+        "id": "crappychestplate",
+        "name": "Crappy Chestplate",
+        "bonus": {
+            "toughness": 5,
+            "hpregen": 0.15,
+            "espeed": 3
+        }
+    }
+]

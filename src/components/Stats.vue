@@ -1,21 +1,21 @@
 <template>
-    <h2 class="text-lg font-bold tracking-tight">Stats</h2>
+    <h2 class="h2">Stats</h2>
     <table class="stats-table">
         <tr>
             <td>Power</td>
-            <td>+0%</td>
+            <td>{{ power }}</td>
         </tr>
         <tr>
             <td>Toughness</td>
-            <td>+0%</td>
+            <td>+{{ toughness }}</td>
         </tr>
         <tr>
             <td>Max Health</td>
-            <td>+0%</td>
+            <td>+{{ maxHealth }}</td>
         </tr>
         <tr>
             <td>Health Regeneration</td>
-            <td>+0%</td>
+            <td>+{{ healthRegen }}</td>
         </tr>
         <tr>
             <td colspan="2" class="font-bold">Special Bonuses</td>
@@ -91,7 +91,27 @@
 </template>
 
 <script>
+function calculateBonus (itemBonus) {
+    const bonus = 0 + (typeof itemBonus === 'number' ? itemBonus : 0);
+    return bonus + '%';
+}
+
 export default {
-    name: 'Stats'
+    name: 'Stats',
+    props: ['item'],
+    computed: {
+        power () {
+            return calculateBonus(this.item.bonus?.power);
+        },
+        toughness () {
+            return calculateBonus(this.item.bonus?.toughness);
+        },
+        maxHealth () {
+            return calculateBonus(this.item.bonus?.maxHealth);
+        },
+        healthRegen () {
+            return calculateBonus(this.item.bonus?.healthRegen);
+        }
+    }
 };
 </script>

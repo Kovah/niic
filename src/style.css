@@ -10,4 +10,12 @@
     .stats-table td {
         @apply py-0.5 px-1 text-sm;
     }
+
+    .h1 {
+        @apply text-xl font-bold tracking-tight;
+    }
+
+    .h2 {
+        @apply text-lg font-bold tracking-tight;
+    }
 }

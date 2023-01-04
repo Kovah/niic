@@ -1,1 +1,1 @@
-# NIIC
+# NIIC - NGU Idle Item Comparator

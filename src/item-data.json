@@ -5,7 +5,7 @@
         "type": "head",
         "bonus": {
             "toughness": 5,
-            "healthRegen": 0.15
+            "hpRegen": 0.15
         }
     },
     {
@@ -14,7 +14,7 @@
         "type": "chest",
         "bonus": {
             "toughness": 5,
-            "healthRegen": 0.15,
+            "hpRegen": 0.15,
             "eSpeed": 3
         }
     },
@@ -24,7 +24,7 @@
         "type": "legs",
         "bonus": {
             "toughness": 5,
-            "healthRegen": 0.15
+            "hpRegen": 0.15
         }
     },
     {
@@ -33,7 +33,7 @@
         "type": "boots",
         "bonus": {
             "toughness": 5,
-            "healthRegen": 0.15,
+            "hpRegen": 0.15,
             "eSpeed": 3
         }
     },
@@ -43,7 +43,7 @@
         "type": "weapon",
         "bonus": {
             "power": 20,
-            "maxHealth": 60
+            "maxHP": 60
         }
     },
     {
@@ -53,8 +53,8 @@
         "bonus": {
             "power": 1,
             "toughness": 1,
-            "maxHealth": 3,
-            "healthRegen": 0.03,
+            "maxHP": 3,
+            "hpRegen": 0.03,
             "eSpeed": 20
         }
     },
@@ -65,8 +65,8 @@
         "bonus": {
             "power": 5,
             "toughness": 5,
-            "maxHealth": 15,
-            "healthRegen": 0.15
+            "maxHP": 15,
+            "hpRegen": 0.15
         }
     }
 ]

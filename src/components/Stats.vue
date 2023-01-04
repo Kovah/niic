@@ -11,11 +11,11 @@
         </tr>
         <tr>
             <td>Max Health</td>
-            <td>+{{ maxHealth }}</td>
+            <td>+{{ maxHP }}</td>
         </tr>
         <tr>
             <td>Health Regeneration</td>
-            <td>+{{ healthRegen }}</td>
+            <td>+{{ hpRegen }}</td>
         </tr>
         <tr>
             <td colspan="2"></td>
@@ -122,11 +122,11 @@ export default {
         toughness () {
             return calculateBonus(this.item.bonus?.toughness);
         },
-        maxHealth () {
-            return calculateBonus(this.item.bonus?.maxHealth);
+        maxHP () {
+            return calculateBonus(this.item.bonus?.maxHP);
         },
-        healthRegen () {
-            return calculateBonus(this.item.bonus?.healthRegen);
+        hpRegen () {
+            return calculateBonus(this.item.bonus?.hpRegen);
         },
         dropChance () {
             return calculatePercentBonus(this.item.bonus?.dropChance);

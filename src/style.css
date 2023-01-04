@@ -26,4 +26,13 @@
     .app-inner {
         @apply border border-gray-700 rounded-xl p-4;
     }
+
+    .btn {
+        @apply relative inline-block py-1 px-3 text-sm tracking-wide text-gray-100 hover:text-white bg-gray-800 rounded border border-gray-900 hover:shadow transition;
+    }
+
+    .btn::after {
+        content: '';
+        @apply absolute top-0 right-0 bottom-0 left-0 rounded border border-gray-700;
+    }
 }

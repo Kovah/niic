@@ -6,7 +6,7 @@ import ItemSelector from './ItemSelector.vue';</script>
     <main class="app">
         <div class="app-inner">
             <h1 class="text-2xl font-bold tracking-tight">NIIC - NGU Idle Item Comparator</h1>
-            <div class="mt-4 grid grid-cols-2 gap-8">
+            <div class="mt-4 flex gap-8">
                 <Item :item="item" :id="index" v-for="(item, index) in store.items"/>
             </div>
         </div>

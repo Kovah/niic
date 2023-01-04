@@ -1,294 +1,584 @@
 [
     {
-        "id": "CrappyHelmet",
+        "id": "40_CrappyHelmet",
         "name": "Crappy Hemlet",
         "set": "Sewers",
         "type": "head",
         "bonus": {
-            "toughness": 5,
-            "hpRegen": 0.15
+            "toughness": 10,
+            "hpRegen": 0.3,
+            "eSpeed": 6
         }
     },
     {
-        "id": "CrappyChestplate",
+        "id": "41_CrappyChestplate",
         "name": "Crappy Chestplate",
         "set": "Sewers",
         "type": "chest",
         "bonus": {
-            "toughness": 5,
-            "hpRegen": 0.15,
-            "eSpeed": 3
+            "toughness": 10,
+            "hpRegen": 0.3
         }
     },
     {
-        "id": "CrappyLeggings",
+        "id": "42_CrappyLeggings",
         "name": "Crappy Leggings",
         "set": "Sewers",
         "type": "legs",
         "bonus": {
-            "toughness": 5,
-            "hpRegen": 0.15
+            "toughness": 10,
+            "hpRegen": 0.3
         }
     },
     {
-        "id": "CrappyBoots",
+        "id": "43_CrappyBoots",
         "name": "Crappy Boots",
         "set": "Sewers",
         "type": "boots",
         "bonus": {
-            "toughness": 5,
-            "hpRegen": 0.15,
-            "eSpeed": 3
+            "toughness": 10,
+            "hpRegen": 0.3,
+            "eSpeed": 10
         }
     },
     {
-        "id": "RustySword",
+        "id": "44_RustySword",
         "name": "Rusty Sword",
         "set": "Sewers",
         "type": "weapon",
         "bonus": {
-            "power": 20,
-            "maxHP": 60
+            "power": 40,
+            "maxHP": 120
         }
     },
     {
-        "id": "GrossRing",
+        "id": "45_GrossRing",
         "name": "Gross Ring",
         "set": "Sewers",
         "type": "accessory",
         "bonus": {
-            "power": 1,
-            "toughness": 1,
-            "maxHP": 3,
-            "hpRegen": 0.03,
-            "eSpeed": 20
+            "power": 2,
+            "maxHP": 6,
+            "toughness": 2,
+            "hpRegen": 0.06,
+            "eSpeed": 40
         }
     },
     {
-        "id": "CrackedAmulet",
+        "id": "46_CrackedAmulet",
         "name": "Cracked Amulet",
         "set": "Sewers",
         "type": "accessory",
         "bonus": {
-            "power": 5,
-            "toughness": 5,
-            "maxHP": 15,
-            "hpRegen": 0.15
+            "power": 10,
+            "maxHP": 30,
+            "toughness": 10,
+            "hpRegen": 0.3
         }
     },
     {
-        "id": "ForestHelmet",
+        "id": "47_ForestHelmet",
         "name": "Forest Helmet",
         "set": "Forest",
         "type": "head",
         "bonus": {
-            "toughness": 20,
-            "hpRegen": 0.6,
-            "ePower": 10,
-            "eSpeed": 12
+            "toughness": 40,
+            "hpRegen": 1.2,
+            "ePower": 20,
+            "eSpeed": 24
         }
     },
     {
-        "id": "ForestChestplate",
+        "id": "48_ForestChestplate",
         "name": "Forest Chestplate",
         "set": "Forest",
         "type": "chest",
         "bonus": {
-            "toughness": 20,
-            "hpRegen": 0.6,
-            "ePower": 12,
-            "eSpeed": 8
+            "toughness": 40,
+            "hpRegen": 1.2,
+            "ePower": 24,
+            "eSpeed": 16
         }
     },
     {
-        "id": "ForestLeggings",
+        "id": "49_ForestLeggings",
         "name": "Forest Leggings",
         "set": "Forest",
         "type": "chest",
         "bonus": {
-            "toughness": 20,
-            "hpRegen": 0.6,
-            "eSpeed": 8
+            "toughness": 40,
+            "hpRegen": 1.2,
+            "eSpeed": 16
         }
     },
     {
-        "id": "ForestBoots",
+        "id": "50_ForestBoots",
         "name": "Forest Boots",
         "set": "Forest",
         "type": "boots",
         "bonus": {
-            "power": 5,
-            "toughness": 5,
-            "maxHP": 15,
-            "hpRegen": 0.15
-        }
-    },
-    {
-        "id": "KokiriBlade",
-        "name": "Kokiri Blade",
-        "set": "Forest",
-        "type": "weapon",
-        "bonus": {
-            "power": 80,
-            "maxHP": 240,
+            "toughness": 10,
+            "hpRegen": 1.2,
             "ePower": 10
         }
     },
     {
-        "id": "MossyRing",
+        "id": "51_KokiriBlade",
+        "name": "Kokiri Blade",
+        "set": "Forest",
+        "type": "weapon",
+        "bonus": {
+            "power": 160,
+            "maxHP": 480,
+            "ePower": 20
+        }
+    },
+    {
+        "id": "52_MossyRing",
         "name": "Mossy Ring",
         "set": "Forest",
         "type": "accessory",
         "bonus": {
-            "power": 8,
-            "toughness": 8,
-            "maxHP": 24,
-            "hpRegen": 0.24,
-            "eSpeed": 20
+            "power": 16,
+            "maxHP": 48,
+            "toughness": 16,
+            "hpRegen": 0.48,
+            "eSpeed": 40
         }
     },
     {
-        "id": "ForestPendant",
+        "id": "53_ForestPendant",
         "name": "Forest Pendant",
         "set": "Forest",
         "type": "accessory",
         "bonus": {}
     },
     {
-        "id": "BlueCheeseHelmet",
+        "id": "54_BlueCheeseHelmet",
         "name": "Blue Cheese Helmet",
         "set": "Cave",
         "type": "head",
         "bonus": {
-            "toughness": 50,
-            "hpRegen": 1.5,
-            "mPower": 7
+            "toughness": 100,
+            "hpRegen": 3,
+            "mPower": 14
         }
     },
     {
-        "id": "GoudaChestplate",
+        "id": "55_GoudaChestplate",
         "name": "Gouda Chestplate",
         "set": "Cave",
         "type": "chest",
         "bonus": {
-            "toughness": 50,
-            "hpRegen": 1.5,
-            "mPower": 13
+            "toughness": 100,
+            "hpRegen": 3,
+            "mPower": 26
         }
     },
     {
-        "id": "SwissLeggings",
+        "id": "56_SwissLeggings",
         "name": "Swiss Leggings",
         "set": "Cave",
         "type": "legs",
         "bonus": {
-            "toughness": 50,
-            "hpRegen": 1.5,
-            "mSpeed": 10
+            "toughness": 100,
+            "hpRegen": 3,
+            "mSpeed": 20
         }
     },
     {
-        "id": "LimburgerBoots",
+        "id": "57_LimburgerBoots",
         "name": "Limburger Boots",
         "set": "Cave",
         "type": "boots",
         "bonus": {
-            "toughness": 50,
-            "hpRegen": 1.5,
-            "mPower": 10,
-            "mSpeed": 10
+            "toughness": 100,
+            "hpRegen": 3,
+            "mPower": 20,
+            "mSpeed": 20
         }
     },
     {
-        "id": "MoleHammer",
+        "id": "58_MoleHammer",
         "name": "Mole Hammer",
         "set": "Cave",
         "type": "weapon",
         "bonus": {
-            "power": 200,
-            "maxHP": 600,
-            "eBars": 15
+            "power": 400,
+            "maxHP": 1200,
+            "eBars": 30
         }
     },
     {
-        "id": "HavartiRing",
+        "id": "59_HavartiRing",
         "name": "Havarti Ring",
         "set": "Cave",
         "type": "accessory",
         "bonus": {
-            "power": 4,
-            "toughness": 4,
-            "maxHP": 12,
-            "hpRegen": 0.12,
-            "mPower": 25,
-            "mSpeed": 25
+            "power": 8,
+            "maxHP": 24,
+            "toughness": 8,
+            "hpRegen": 0.24,
+            "mPower": 50,
+            "mSpeed": 50
         }
     },
     {
-        "id": "CheddarAmulet",
+        "id": "60_CheddarAmulet",
         "name": "Cheddar Amulet",
         "set": "Cave",
         "type": "accessory",
         "bonus": {
-            "power": 1,
-            "toughness": 1,
-            "maxHP": 3,
-            "hpRegen": 0.03,
-            "ePower": 30,
-            "eSpeed": 60
+            "power": 2,
+            "maxHP": 6,
+            "toughness": 2,
+            "hpRegen": 0.06,
+            "ePower": 60,
+            "eSpeed": 120
         }
     },
     {
-        "id": "CombatCheese",
+        "id": "61_CombatCheese",
         "name": "Combat Cheese",
         "set": "Cave",
         "type": "accessory",
         "bonus": {
-            "power": 30,
-            "toughness": 30,
-            "maxHP": 90,
-            "hpRegen": 0.9,
-            "goldDrops": 10
+            "power": 60,
+            "maxHP": 180,
+            "toughness": 60,
+            "hpRegen": 1.8,
+            "goldDrops": 20
         }
     },
     {
-        "id": "ClothHat",
+        "id": "62_ClothHat",
         "name": "Cloth Hat",
         "set": "Training",
         "type": "head",
         "bonus": {
-            "toughness": 1,
-            "hpRegen": 0.03
+            "toughness": 2,
+            "hpRegen": 0.06
         }
     },
     {
-        "id": "ClothShirt",
+        "id": "63_ClothShirt",
         "name": "Cloth Shirt",
         "set": "Training",
         "type": "chest",
         "bonus": {
-            "toughness": 1,
-            "hpRegen": 0.03
+            "toughness": 2,
+            "hpRegen": 0.06
         }
     },
     {
-        "id": "ClothLeggings",
+        "id": "64_ClothLeggings",
         "name": "Cloth Leggings",
         "set": "Training",
         "type": "legs",
         "bonus": {
-            "toughness": 1,
-            "hpRegen": 0.03
+            "toughness": 2,
+            "hpRegen": 0.06
         }
     },
     {
-        "id": "ClothBoots",
+        "id": "65_ClothBoots",
         "name": "Cloth Boots",
         "set": "Training",
         "type": "boots",
         "bonus": {
-            "toughness": 1,
-            "hpRegen": 0.03
+            "toughness": 2,
+            "hpRegen": 0.06
+        }
+    },
+    {
+        "id": "75_AStick",
+        "name": "A Stick",
+        "set": "Training",
+        "type": "weapon",
+        "bonus": {
+            "power": 6,
+            "maxHP": 18
+        }
+    },
+    {
+        "id": "67_LootyMcLootFace",
+        "name": "Looty McLootFace",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 4,
+            "toughness": 12,
+            "maxHP": 4,
+            "hpRegen": 0.12,
+            "dropChance": 20
+        }
+    },
+    {
+        "id": "68_MagitechHelmet",
+        "name": "Magitech Helmet",
+        "set": "HSB",
+        "type": "head",
+        "bonus": {
+            "toughness": 250,
+            "hpRegen": 7.5,
+            "eBars": 50,
+            "mBars": 30
+        }
+    },
+    {
+        "id": "69_MagitechChestplate",
+        "name": "Magitech Chestplate",
+        "set": "HSB",
+        "type": "chest",
+        "bonus": {
+            "toughness": 250,
+            "hpRegen": 7.5,
+            "eBars": 30,
+            "mSpeed": 40
+        }
+    },
+    {
+        "id": "70_MagitechLeggings",
+        "name": "Magitech Leggings",
+        "set": "HSB",
+        "type": "legs",
+        "bonus": {
+            "toughness": 250,
+            "hpRegen": 7.5,
+            "mBars": 40,
+            "mPower": 20
+        }
+    },
+    {
+        "id": "71_MagitechBoots",
+        "name": "Magitech Boots",
+        "set": "HSB",
+        "type": "boots",
+        "bonus": {
+            "toughness": 250,
+            "hpRegen": 7.5,
+            "ePower": 50,
+            "mPower": 30
+        }
+    },
+    {
+        "id": "72_MagitechBlade",
+        "name": "Magitech Blade",
+        "set": "HSB",
+        "type": "weapon",
+        "bonus": {
+            "power": 1000,
+            "maxHP": 3000,
+            "eCap": 12,
+            "goldDrops": 40,
+            "mCap": 8
+        }
+    },
+    {
+        "id": "73_MagitechRing",
+        "name": "Magitech Ring",
+        "set": "HSB",
+        "type": "accessory",
+        "bonus": {
+            "power": 90,
+            "maxHP": 270,
+            "toughness": 90,
+            "hpRegen": 2.7,
+            "mPower": 80
+        }
+    },
+    {
+        "id": "74_MagitechAmulet",
+        "name": "Magitech Amulet",
+        "set": "HSB",
+        "type": "accessory",
+        "bonus": {
+            "eCap": 1.8,
+            "ePower": 60,
+            "goldDrops": 40
+        }
+    },
+    {
+        "id": "82_BloodyCleaver",
+        "name": "Bloody Cleaver",
+        "set": "GRB",
+        "type": "weapon",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 160,
+            "cooking": 240,
+            "eBars": 130,
+            "ePower": 90
+        }
+    },
+    {
+        "id": "78_ChefsHat",
+        "name": "Chef's Hat",
+        "set": "GRB",
+        "type": "head",
+        "bonus": {
+            "power": 500,
+            "maxHP": 1500,
+            "toughness": 500,
+            "hpRegen": 15,
+            "cooking": 60,
+            "ePower": 100
+        }
+    },
+    {
+        "id": "79_ChefsApron",
+        "name": "Chef's Apron",
+        "set": "GRB",
+        "type": "chest",
+        "bonus": {
+            "power": 40,
+            "maxHP": 120,
+            "toughness": 500,
+            "hpRegen": 15,
+            "cooking": 60,
+            "ePower": 100
+        }
+    },
+    {
+        "id": "80_RegularPants",
+        "name": "Regular Pants",
+        "set": "GRB",
+        "type": "legs",
+        "bonus": {
+            "power": 40,
+            "maxHP": 120,
+            "toughness": 500,
+            "hpRegen": 15,
+            "cooking": 60,
+            "ePower": 130
+        }
+    },
+    {
+        "id": "81_NonSlipShoes",
+        "name": "Non Slip Shoes",
+        "set": "GRB",
+        "type": "boots",
+        "bonus": {
+            "power": 40,
+            "maxHP": 120,
+            "toughness": 500,
+            "hpRegen": 15,
+            "cooking": 60,
+            "ePower": 130
+        }
+    },
+    {
+        "id": "83_SuspiciousSausageNecklace",
+        "name": "Suspicious Sausage Necklace",
+        "set": "GRB",
+        "type": "accessory",
+        "bonus": {
+            "power": 500,
+            "maxHP": 1500,
+            "toughness": 500,
+            "hpRegen": 15
+        }
+    },
+    {
+        "id": "84_RawSlabOfMeat",
+        "name": "Raw Slab of Meat",
+        "set": "GRB",
+        "type": "accessory",
+        "bonus": {
+            "eCap": 10,
+            "ePower": 140
+        }
+    },
+    {
+        "id": "89_AComicallyOversizedMinuteHand",
+        "name": "A Comically Oversized Minute-Hand",
+        "set": "Clock",
+        "type": "weapon",
+        "bonus": {
+            "power": 5000,
+            "maxHP": 15000,
+            "toughness": 160,
+            "hpRegen": 4.8,
+            "mBars": 130,
+            "mPower": 100
+        }
+    },
+    {
+        "id": "85_ClockworkHat",
+        "name": "Clockwork Hat",
+        "set": "Clock",
+        "type": "head",
+        "bonus": {
+            "power": 60,
+            "maxHP": 180,
+            "toughness": 860,
+            "hpRegen": 25.8,
+            "mCap": 4,
+            "mPower": 60
+        }
+    },
+    {
+        "id": "86_ClockworkChest",
+        "name": "Clockwork Chest",
+        "set": "Clock",
+        "type": "chest",
+        "bonus": {
+            "power": 40,
+            "maxHP": 120,
+            "toughness": 890,
+            "hpRegen": 26.7,
+            "mCap": 6,
+            "mPower": 60
+        }
+    },
+    {
+        "id": "87_ClockworkPants",
+        "name": "Clockwork Pants",
+        "set": "Clock",
+        "type": "legs",
+        "bonus": {
+            "power": 40,
+            "maxHP": 120,
+            "toughness": 1000,
+            "hpRegen": 30,
+            "mCap": 6,
+            "mPower": 60
+        }
+    },
+    {
+        "id": "88_ClockworkBoots",
+        "name": "Clockwork Boots",
+        "set": "Clock",
+        "type": "boots",
+        "bonus": {
+            "power": 40,
+            "maxHP": 120,
+            "toughness": 1030,
+            "hpRegen": 30.9,
+            "mCap": 6,
+            "mPower": 60
+        }
+    },
+    {
+        "id": "90_AlarmClock",
+        "name": "Alarm Clock",
+        "set": "Clock",
+        "type": "accessory",
+        "bonus": {
+            "power": 900,
+            "maxHP": 2700,
+            "toughness": 900,
+            "hpRegen": 27
+        }
+    },
+    {
+        "id": "91_TheSandsOfTime",
+        "name": "The Sands of Time",
+        "set": "Clock",
+        "type": "accessory",
+        "bonus": {
+            "moveCooldown": 20
         }
     }
 ]

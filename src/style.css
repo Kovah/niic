@@ -7,6 +7,10 @@
         @apply font-sans antialiased bg-gray-800 text-gray-100;
     }
 
+    .container {
+        @apply px-3;
+    }
+
     .stats-table td {
         @apply py-0.5 px-2 text-sm;
     }
@@ -24,7 +28,7 @@
     }
 
     .app {
-        @apply bg-gray-800 rounded-xl border border-gray-900 my-8;
+        @apply bg-gray-800 rounded-xl border border-gray-900;
     }
 
     .app-inner {
@@ -32,7 +36,7 @@
     }
 
     .btn {
-        @apply relative inline-block py-1 px-3 text-sm tracking-wide text-gray-100 hover:text-white bg-gray-800 rounded border border-gray-900 hover:shadow transition;
+        @apply relative inline-block py-1 px-3 text-sm tracking-wide text-gray-200 hover:text-white bg-gray-800 rounded border border-gray-900 hover:shadow transition;
     }
 
     .btn::after {

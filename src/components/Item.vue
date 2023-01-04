@@ -7,7 +7,7 @@ import Stats from './Stats.vue';</script>
             v-on:click="openItemSelector">
             <div class="border border-gray-700 w-full h-full rounded flex items-center justify-center">
                 <img :src="itemImagePath" :alt="item.name" v-if="this.itemLoaded">
-                <span class="p-1 text-xs" v-if="!this.itemLoaded">Select an Item</span>
+                <span class="p-1 text-xs text-gray-500" v-if="!this.itemLoaded">Select an Item</span>
             </div>
         </div>
         <Stats :item="item"/>

@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply font-sans antialiased bg-ngu-primary text-black;
+        @apply font-sans antialiased bg-gray-800 text-gray-100;
     }
 
     .stats-table td {
@@ -17,5 +17,13 @@
 
     .h2 {
         @apply text-lg font-bold tracking-tight;
+    }
+
+    .app {
+        @apply bg-gray-800 rounded-xl border border-gray-900 my-8;
+    }
+
+    .app-inner {
+        @apply border border-gray-700 rounded-xl p-4;
     }
 }

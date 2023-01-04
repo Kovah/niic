@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             colors: {
                 'ngu-primary': '#6386a4',
+                'ngu-primary-dark': '#265174',
                 'ngu-energy': '#55ce7e',
                 'ngu-magic': '#748ff5',
                 'ngu-three': '#cc3a01',

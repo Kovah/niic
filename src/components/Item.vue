@@ -3,10 +3,12 @@ import Stats from './Stats.vue';</script>
 
 <template>
     <div>
-        <div class="mb-4 border-2 border-gray-700 w-20 h-20 flex items-center justify-center cursor-pointer"
+        <div class="mb-4 border border-gray-900 w-20 h-20 cursor-pointer rounded"
             v-on:click="openItemSelector">
-            <img :src="itemImagePath" :alt="item.name" v-if="this.itemLoaded">
-            <span class="p-1 text-xs" v-if="!this.itemLoaded">Select an Item</span>
+            <div class="border border-gray-700 w-full h-full rounded flex items-center justify-center">
+                <img :src="itemImagePath" :alt="item.name" v-if="this.itemLoaded">
+                <span class="p-1 text-xs" v-if="!this.itemLoaded">Select an Item</span>
+            </div>
         </div>
         <Stats :item="item"/>
     </div>

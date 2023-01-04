@@ -8,7 +8,11 @@
     }
 
     .stats-table td {
-        @apply py-0.5 px-1 text-sm;
+        @apply py-0.5 px-2 text-sm;
+    }
+
+    .stats-table td:first-of-type {
+        @apply pl-0;
     }
 
     .h1 {
@@ -34,5 +38,13 @@
     .btn::after {
         content: '';
         @apply absolute top-0 right-0 bottom-0 left-0 rounded border border-gray-700;
+    }
+
+    .btn.btn-active {
+        @apply border-gray-600;
+    }
+
+    .btn.btn-active::after {
+        @apply border-gray-500;
     }
 }

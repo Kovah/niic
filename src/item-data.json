@@ -2,6 +2,7 @@
     {
         "id": "CrappyHelmet",
         "name": "Crappy Hemlet",
+        "type": "head",
         "bonus": {
             "toughness": 5,
             "healthRegen": 0.15
@@ -10,6 +11,7 @@
     {
         "id": "CrappyChestplate",
         "name": "Crappy Chestplate",
+        "type": "chest",
         "bonus": {
             "toughness": 5,
             "healthRegen": 0.15,
@@ -19,6 +21,7 @@
     {
         "id": "CrappyLeggings",
         "name": "Crappy Leggings",
+        "type": "legs",
         "bonus": {
             "toughness": 5,
             "healthRegen": 0.15
@@ -27,6 +30,7 @@
     {
         "id": "CrappyBoots",
         "name": "Crappy Boots",
+        "type": "boots",
         "bonus": {
             "toughness": 5,
             "healthRegen": 0.15,
@@ -36,6 +40,7 @@
     {
         "id": "RustySword",
         "name": "Rusty Sword",
+        "type": "weapon",
         "bonus": {
             "power": 20,
             "maxHealth": 60
@@ -44,6 +49,7 @@
     {
         "id": "GrossRing",
         "name": "Gross Ring",
+        "type": "accessory",
         "bonus": {
             "power": 1,
             "toughness": 1,
@@ -55,6 +61,7 @@
     {
         "id": "CrackedAmulet",
         "name": "Cracked Amulet",
+        "type": "accessory",
         "bonus": {
             "power": 5,
             "toughness": 5,

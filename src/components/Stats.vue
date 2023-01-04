@@ -18,6 +18,9 @@
             <td>+{{ healthRegen }}</td>
         </tr>
         <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
             <td colspan="2" class="font-bold">Special Bonuses</td>
         </tr>
         <tr>
@@ -83,6 +86,9 @@
         <tr>
             <td>Three Power</td>
             <td>+{{ threePower }}</td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
         </tr>
         <tr>
             <td colspan="2" class="font-bold">Player Stat Boosts</td>

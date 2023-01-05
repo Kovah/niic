@@ -63,6 +63,10 @@
         @apply border-gray-500;
     }
 
+    .select {
+        @apply inline-block z-20 py-1 px-3 text-sm tracking-wide text-gray-200 hover:text-white bg-gray-800 rounded border border-gray-900 outline-2 outline-gray-700 transition;
+    }
+
     .stats-table td {
         @apply py-0.5 px-2 text-sm;
     }

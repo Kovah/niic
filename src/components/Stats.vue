@@ -3,19 +3,19 @@
     <table class="stats-table">
         <tr>
             <td>Power</td>
-            <td>{{ power }}</td>
+            <td :class="'bonus ' + bonusClass('power')">{{ power }}</td>
         </tr>
         <tr>
             <td>Toughness</td>
-            <td>+{{ toughness }}</td>
+            <td :class="'bonus ' + bonusClass('toughness')">{{ toughness }}</td>
         </tr>
         <tr>
             <td>Max Health</td>
-            <td>+{{ maxHP }}</td>
+            <td :class="'bonus ' + bonusClass('maxHP')">{{ maxHP }}</td>
         </tr>
         <tr>
             <td>Health Regeneration</td>
-            <td>+{{ hpRegen }}</td>
+            <td :class="'bonus ' + bonusClass('hpRegen')">{{ hpRegen }}</td>
         </tr>
         <tr class="divider"></tr>
         <tr>
@@ -23,84 +23,84 @@
         </tr>
         <tr>
             <td class="bg-ngu-energy/10">Energy Power</td>
-            <td>+{{ ePower }}</td>
+            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('ePower')">{{ ePower }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-energy/10">Energy Bars</td>
-            <td>+{{ eBars }}</td>
+            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('eBars')">{{ eBars }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-energy/10">Energy Cap</td>
-            <td>+{{ eCap }}</td>
+            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('eCap')">{{ eCap }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-energy/10">Energy Speed</td>
-            <td>+{{ eSpeed }}</td>
+            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('eSpeed')">{{ eSpeed }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-magic/10">Magic Power</td>
-            <td>+{{ mPower }}</td>
+            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mPower')">{{ mPower }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-magic/10">Magic Bars</td>
-            <td>+{{ mBars }}</td>
+            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mBars')">{{ mBars }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-magic/10">Magic Cap</td>
-            <td>+{{ mCap }}</td>
+            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mCap')">{{ mCap }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-magic/10">Magic Speed</td>
-            <td>+{{ mSpeed }}</td>
+            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mSpeed')">{{ mSpeed }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-three/10">Three Power</td>
-            <td>+{{ threePower }}</td>
+            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threePower')">{{ threePower }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-three/10">Three Bars</td>
-            <td>+{{ threeBars }}</td>
+            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threeBars')">{{ threeBars }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-three/10">Three Cap</td>
-            <td>+{{ threeCap }}</td>
+            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threeCap')">{{ threeCap }}</td>
         </tr>
         <tr>
             <td class="bg-ngu-three/10">Three Speed</td>
-            <td>+{{ threeSpeed }}</td>
+            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threeSpeed')">{{ threeSpeed }}</td>
         </tr>
         <tr class="divider"></tr>
         <tr>
             <td>Drop Chance</td>
-            <td>+{{ dropChance }}</td>
+            <td :class="'bonus ' + bonusClass('dropChance')">{{ dropChance }}</td>
         </tr>
         <tr>
             <td>Gold Drops</td>
-            <td>+{{ goldDrops }}</td>
+            <td :class="'bonus ' + bonusClass('goldDrops')">{{ goldDrops }}</td>
         </tr>
         <tr>
             <td>Seed Gain</td>
-            <td>+{{ seedGain }}</td>
+            <td :class="'bonus ' + bonusClass('seedGain')">{{ seedGain }}</td>
         </tr>
         <tr>
             <td>Respawn</td>
-            <td>+{{ respawn }}</td>
+            <td :class="'bonus ' + bonusClass('respawn')">{{ respawn }}</td>
         </tr>
         <tr>
             <td>NGU Speed</td>
-            <td>+{{ nguSpeed }}</td>
+            <td :class="'bonus ' + bonusClass('nguSpeed')">{{ nguSpeed }}</td>
         </tr>
         <tr>
             <td>Daycare Speed</td>
-            <td>+{{ daycareSpeed }}</td>
+            <td :class="'bonus ' + bonusClass('daycareSpeed')">{{ daycareSpeed }}</td>
         </tr>
         <tr>
             <td>Quest Drops</td>
-            <td>+{{ questDrops }}</td>
+            <td :class="'bonus ' + bonusClass('questDrops')">{{ questDrops }}</td>
         </tr>
         <tr>
             <td>Move Cooldown</td>
-            <td>+{{ moveCooldown }}</td>
+            <td :class="'bonus ' + bonusClass('moveCooldown')">{{ moveCooldown }}</td>
         </tr>
         <tr class="divider"></tr>
         <tr>
@@ -108,26 +108,52 @@
         </tr>
         <tr>
             <td>Attack</td>
-            <td>+{{ attack }}</td>
+            <td :class="'bonus ' + bonusClass('attack')">{{ attack }}</td>
         </tr>
         <tr>
             <td>Defense</td>
-            <td>+{{ defense }}</td>
+            <td :class="'bonus ' + bonusClass('defense')">{{ defense }}</td>
         </tr>
     </table>
 </template>
 
 <script>
+import { store } from './../store.js';
+
 function calculateBonus (itemBonus) {
     return 0 + (typeof itemBonus === 'number' ? itemBonus : 0);
 }
+
 function calculatePercentBonus (itemBonus) {
     return calculateBonus(itemBonus) + '%';
+}
+
+function bonusIsNull (item, bonusType) {
+    return Object.entries(item.bonus).length === 0 || item.bonus[bonusType] === 0;
 }
 
 export default {
     name: 'Stats',
     props: ['item'],
+    data () {
+        return {
+            store
+        };
+    },
+    methods: {
+        bonusClass (bonusType) {
+            const baseValue = this.item.bonus[bonusType];
+            if (typeof baseValue === 'undefined') {
+                return '';
+            }
+            if (store.items.filter((item) => bonusIsNull(item, bonusType)).length > 0) {
+                return '';
+            }
+            return store.items.filter((item) => item.bonus[bonusType] > baseValue).length === 0
+                ? 'text-green-300'
+                : '';
+        }
+    },
     computed: {
         power () {
             return calculateBonus(this.item.bonus?.power);

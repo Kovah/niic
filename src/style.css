@@ -71,6 +71,11 @@
         @apply py-0.5 px-2 text-left text-xs font-bold uppercase;
     }
 
+    .stats-table .bonus {
+        @apply text-right;
+        font-variant-numeric: tabular-nums;
+    }
+
     .stats-table .divider {
         @apply h-3;
     }

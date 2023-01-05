@@ -690,5 +690,208 @@
             "advancedTraining": 80,
             "wSpeed": 60
         }
+    },
+    {
+        "id": "107_SpookySword",
+        "name": "Spooky Sword",
+        "set": "Spoopy",
+        "type": "weapon",
+        "bonus": {
+            "power": 17776,
+            "maxHP": 53328,
+            "toughness": 600,
+            "hpRegen": 18,
+            "ePower": 170,
+            "mPower": 220
+        }
+    },
+    {
+        "id": "103_SpoopyHelmet",
+        "name": "Spoopy Helmet",
+        "set": "Spoopy",
+        "type": "head",
+        "bonus": {
+            "power": 100,
+            "maxHP": 300,
+            "toughness": 2000,
+            "hpRegen": 60,
+            "eCap": 20.6,
+            "mCap": 21,
+            "mPower": 150
+        }
+    },
+    {
+        "id": "104_GhostlyChest",
+        "name": "Ghostly Chest",
+        "set": "Spoopy",
+        "type": "chest",
+        "bonus": {
+            "power": 160,
+            "maxHP": 480,
+            "toughness": 2070,
+            "hpRegen": 62.1,
+            "eCap": 22,
+            "mCap": 23,
+            "mPower": 80
+        }
+    },
+    {
+        "id": "105_PantsOfHorror",
+        "name": "Pants of Horror",
+        "set": "Spoopy",
+        "type": "legs",
+        "bonus": {
+            "power": 140,
+            "maxHP": 420,
+            "toughness": 2120,
+            "hpRegen": 63.6,
+            "eCap": 28,
+            "mBars": 80,
+            "mCap": 24
+        }
+    },
+    {
+        "id": "106_SpectralBoots",
+        "name": "Spectral Boots",
+        "set": "Spoopy",
+        "type": "boots",
+        "bonus": {
+            "power": 120,
+            "maxHP": 360,
+            "toughness": 2180,
+            "hpRegen": 65.4,
+            "eCap": 10,
+            "ePower": 100,
+            "mCap": 18
+        }
+    },
+    {
+        "id": "108_CursedRing",
+        "name": "Cursed Ring",
+        "set": "Spoopy",
+        "type": "accessory",
+        "bonus": {
+            "power": 2100,
+            "maxHP": 6300,
+            "toughness": 2100,
+            "hpRegen": 63
+        }
+    },
+    {
+        "id": "109_AmuletOfSunshineSparklesAndGore",
+        "name": "Amulet of Sunshine, Sparkles, and Gore",
+        "set": "Spoopy",
+        "type": "accessory",
+        "bonus": {
+            "ePower": 200,
+            "mPower": 200
+        }
+    },
+    {
+        "id": "110_DragonWings",
+        "name": "Dragon Wings",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 164,
+            "maxHP": 492,
+            "toughness": 164,
+            "hpRegen": 4.92,
+            "goldDrops": 400,
+            "mCap": 45.64,
+            "mPower": 216.2
+        }
+    },
+    {
+        "id": "115_ThePenIs",
+        "name": "The Pen-Is",
+        "set": "Jake",
+        "type": "weapon",
+        "bonus": {
+            "power": 23000,
+            "maxHP": 69000,
+            "mCap": 47.12,
+            "mPower": 176.4
+        }
+    },
+    {
+        "id": "111_OfficeHat",
+        "name": "Office Hat",
+        "set": "Jake",
+        "type": "head",
+        "bonus": {
+            "power": 160,
+            "maxHP": 480,
+            "toughness": 2600,
+            "hpRegen": 78,
+            "eCap": 31.64,
+            "ePower": 216.4
+        }
+    },
+    {
+        "id": "112_OfficeShirt",
+        "name": "Office Shirt",
+        "set": "Jake",
+        "type": "chest",
+        "bonus": {
+            "power": 160,
+            "maxHP": 480,
+            "toughness": 2500,
+            "hpRegen": 75,
+            "eCap": 61.64,
+            "ePower": 156.4
+        }
+    },
+    {
+        "id": "113_OfficePants",
+        "name": "Office Pants",
+        "set": "Jake",
+        "type": "legs",
+        "bonus": {
+            "power": 160,
+            "maxHP": 480,
+            "toughness": 2798,
+            "hpRegen": 83.94,
+            "eCap": 57.64,
+            "ePower": 116.4
+        }
+    },
+    {
+        "id": "114_OfficeShoes",
+        "name": "Office Shoes",
+        "set": "Jake",
+        "type": "boots",
+        "bonus": {
+            "power": 160,
+            "maxHP": 480,
+            "toughness": 2600,
+            "hpRegen": 78,
+            "ePower": 336.4
+        }
+    },
+    {
+        "id": "116_ARegularTie",
+        "name": "A Regular Tie",
+        "set": "Jake",
+        "type": "accessory",
+        "bonus": {
+            "toughness": 163,
+            "hpRegen": 4.89,
+            "goldDrops": 400,
+            "mPower": 216.24,
+            "nguSpeed": 120
+        }
+    },
+    {
+        "id": "117_GenericPaperweight",
+        "name": "Generic Paperweight",
+        "set": "Jake",
+        "type": "accessory",
+        "bonus": {
+            "power": 2900,
+            "maxHP": 8700,
+            "toughness": 2900,
+            "hpRegen": 87
+        }
     }
 ]

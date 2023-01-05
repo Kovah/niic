@@ -580,5 +580,115 @@
         "bonus": {
             "moveCooldown": 20
         }
+    },
+    {
+        "id": "94_AscendedAscendedForestPendant",
+        "name": "Ascended Ascended Forest Pendant",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 1600,
+            "maxHP": 4800,
+            "toughness": 1600,
+            "hpRegen": 48,
+            "dropChance": 80,
+            "goldDrops": 800,
+            "mPower": 200
+        }
+    },
+    {
+        "id": "99_ATriangle",
+        "name": "A Triangle",
+        "set": "2D",
+        "type": "weapon",
+        "bonus": {
+            "power": 9200,
+            "maxHP": 27600,
+            "toughness": 600,
+            "hpRegen": 18,
+            "eBars": 100,
+            "ePower": 90
+        }
+    },
+    {
+        "id": "95_CircleHelmet",
+        "name": "Circle Helmet",
+        "set": "2D",
+        "type": "head",
+        "bonus": {
+            "power": 100,
+            "maxHP": 300,
+            "toughness": 1200,
+            "hpRegen": 36,
+            "eBars": 60,
+            "ePower": 190,
+            "wSpeed": 20
+        }
+    },
+    {
+        "id": "96_SquareChestpiece",
+        "name": "Square Chestpiece",
+        "set": "2D",
+        "type": "chest",
+        "bonus": {
+            "power": 120,
+            "maxHP": 360,
+            "toughness": 1400,
+            "hpRegen": 42,
+            "eBars": 140,
+            "eCap": 10,
+            "ePower": 100
+        }
+    },
+    {
+        "id": "97_RectanglePants",
+        "name": "Rectangle Pants",
+        "set": "2D",
+        "type": "legs",
+        "bonus": {
+            "power": 140,
+            "maxHP": 420,
+            "toughness": 1520,
+            "hpRegen": 45.6,
+            "eCap": 14,
+            "ePower": 100
+        }
+    },
+    {
+        "id": "98_PolygonBoots",
+        "name": "Polygon Boots",
+        "set": "2D",
+        "type": "boots",
+        "bonus": {
+            "power": 120,
+            "maxHP": 360,
+            "toughness": 1400,
+            "hpRegen": 42,
+            "eBars": 140,
+            "eCap": 10,
+            "ePower": 100
+        }
+    },
+    {
+        "id": "100_TheCube",
+        "name": "THE CUBE",
+        "set": "2D",
+        "type": "accessory",
+        "bonus": {
+            "power": 1300,
+            "maxHP": 3900,
+            "toughness": 1300,
+            "hpRegen": 39
+        }
+    },
+    {
+        "id": "101_KingCircleSAmuletOfHelpingRandomStuff",
+        "name": "King Circle's Amulet of Helping Random Stuff",
+        "set": "2D",
+        "type": "accessory",
+        "bonus": {
+            "advancedTraining": 80,
+            "wSpeed": 60
+        }
     }
 ]

@@ -1,7 +1,7 @@
 <template>
-    <div v-show="store.itemSelector.isOpen" class="absolute z-30 left-0 top-0 right-0 bottom-0 bg-gray-900/70">
+    <div v-show="store.itemSelector.isOpen" class="absolute z-30 left-0 top-0 right-0 bottom-0">
         <div class="container mx-auto pt-10">
-            <div class="bg-gray-900 rounded-xl border border-gray-900 w-full max-w-xl mx-auto shadow-xl">
+            <div class="relative z-40 bg-gray-900 rounded-xl border border-gray-900 w-full max-w-xl mx-auto shadow-xl">
                 <div class="rounded-xl border border-gray-700 p-4">
 
                     <h2 class="h2 mb-4">Item Select</h2>
@@ -51,6 +51,7 @@
                 </div>
             </div>
         </div>
+        <div class="absolute z-30 left-0 top-0 right-0 bottom-0 bg-gray-900/70" v-on:click="closeSelector"></div>
     </div>
 </template>
 

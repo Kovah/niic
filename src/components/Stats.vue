@@ -129,7 +129,7 @@
 import { store } from './../store.js';
 
 function calculateBonus (itemBonus) {
-    return 0 + (typeof itemBonus === 'number' ? itemBonus : 0);
+    return typeof itemBonus === 'number' ? itemBonus.toLocaleString() : 0;
 }
 
 function calculatePercentBonus (itemBonus) {

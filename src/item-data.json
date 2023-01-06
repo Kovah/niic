@@ -893,5 +893,313 @@
             "toughness": 2900,
             "hpRegen": 87
         }
+    },
+    {
+        "id": "118_Stapler",
+        "name": "Stapler",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 1000,
+            "maxHP": 3000,
+            "eCap": 60,
+            "respawn": 12
+        }
+    },
+    {
+        "id": "119_MyRedHeart",
+        "name": "My Red Heart",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 200,
+            "maxHP": 600,
+            "toughness": 200,
+            "hpRegen": 6,
+            "dropChance": 60,
+            "exp": 10
+        }
+    },
+    {
+        "id": "120_TheLonelyFlubber",
+        "name": "The Lonely Flubber",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "dropChance": 100
+        }
+    },
+    {
+        "id": "121_TheTripleFlubber",
+        "name": "The Triple Flubber",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "respawn": 8
+        }
+    },
+    {
+        "id": "126_PaperFan",
+        "name": "Paper Fan",
+        "set": "Gaudy",
+        "type": "weapon",
+        "bonus": {
+            "power": 40000,
+            "maxHP": 120000,
+            "mBars": 200,
+            "mPower": 260
+        }
+    },
+    {
+        "id": "122_GaudyHat",
+        "name": "Gaudy Hat",
+        "set": "Gaudy",
+        "type": "head",
+        "bonus": {
+            "power": 560,
+            "maxHP": 1680,
+            "toughness": 4800,
+            "hpRegen": 144,
+            "eBars": 120,
+            "mBars": 120
+        }
+    },
+    {
+        "id": "123_GaudyShirt",
+        "name": "Gaudy Shirt",
+        "set": "Gaudy",
+        "type": "chest",
+        "bonus": {
+            "power": 500,
+            "maxHP": 1500,
+            "toughness": 5000,
+            "hpRegen": 150,
+            "eCap": 76,
+            "ePower": 192
+        }
+    },
+    {
+        "id": "124_GaudyPants",
+        "name": "Gaudy Pants",
+        "set": "Gaudy",
+        "type": "legs",
+        "bonus": {
+            "power": 600,
+            "maxHP": 1800,
+            "toughness": 5200,
+            "hpRegen": 156,
+            "eCap": 72,
+            "ePower": 180
+        }
+    },
+    {
+        "id": "125_GaudyBoots",
+        "name": "Gaudy Boots",
+        "set": "Gaudy",
+        "type": "boots",
+        "bonus": {
+            "power": 400,
+            "maxHP": 1200,
+            "toughness": 4800,
+            "hpRegen": 144,
+            "mPower": 240
+        }
+    },
+    {
+        "id": "127_ABeanie",
+        "name": "A Beanie",
+        "set": null,
+        "type": "head",
+        "bonus": {
+            "power": 4000,
+            "maxHP": 12000,
+            "toughness": 6000,
+            "hpRegen": 180,
+            "mCap": 106,
+            "mPower": 369.8
+        }
+    },
+    {
+        "id": "128_SirLootyMcLootingtonIiiEsquire",
+        "name": "Sir Looty McLootington III, Esquire",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 400,
+            "maxHP": 1200,
+            "toughness": 400,
+            "hpRegen": 12,
+            "dropChance": 80,
+            "ePower": 200,
+            "mPower": 200
+        }
+    },
+    {
+        "id": "129_MyYellowHeart",
+        "name": "My Yellow Heart",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 200,
+            "maxHP": 600,
+            "toughness": 200,
+            "hpRegen": 6,
+            "ap": 20,
+            "goldDrops": 20
+        }
+    },
+    {
+        "id": "134_BeamLaserSword",
+        "name": "Beam Laser Sword",
+        "set": "Mega",
+        "type": "weapon",
+        "bonus": {
+            "power": 88000,
+            "maxHP": 264000,
+            "eBars": 200,
+            "eCap": 40,
+            "ePower": 280
+        }
+    },
+    {
+        "id": "130_MegaHelmet",
+        "name": "Mega Helmet",
+        "set": "Mega",
+        "type": "head",
+        "bonus": {
+            "power": 600,
+            "maxHP": 1800,
+            "toughness": 11200,
+            "hpRegen": 336,
+            "ePower": 460,
+            "mPower": 460
+        }
+    },
+    {
+        "id": "131_MegaChest",
+        "name": "Mega Chest",
+        "set": "Mega",
+        "type": "chest",
+        "bonus": {
+            "power": 600,
+            "maxHP": 1800,
+            "toughness": 11200,
+            "hpRegen": 336,
+            "eBars": 340,
+            "mBars": 340
+        }
+    },
+    {
+        "id": "132_MegaBlueJeans",
+        "name": "Mega Blue Jeans",
+        "set": "Mega",
+        "type": "legs",
+        "bonus": {
+            "power": 600,
+            "maxHP": 1800,
+            "toughness": 11400,
+            "hpRegen": 342,
+            "eCap": 92,
+            "mCap": 92
+        }
+    },
+    {
+        "id": "133_MegaBoots",
+        "name": "Mega Boots",
+        "set": "Mega",
+        "type": "boots",
+        "bonus": {
+            "power": 600,
+            "maxHP": 1800,
+            "toughness": 11000,
+            "hpRegen": 342,
+            "mBars": 300,
+            "mPower": 280
+        }
+    },
+    {
+        "id": "136_RingOfGreed",
+        "name": "Ring of Greed",
+        "set": "UUGRings",
+        "type": "accessory",
+        "bonus": {
+            "dropChance": 120,
+            "goldDrops": 1600,
+            "respawn": 16
+        }
+    },
+    {
+        "id": "137_RingOfMight",
+        "name": "Ring of Might",
+        "set": "UUGRings",
+        "type": "accessory",
+        "bonus": {
+            "power": 13332,
+            "maxHP": 39996,
+            "toughness": 13332,
+            "hpRegen": 399.96,
+            "moveCooldown": 20,
+            "respawn": 4
+        }
+    },
+    {
+        "id": "138_RingOfUtility",
+        "name": "Ring of Utility",
+        "set": "UUGRings",
+        "type": "accessory",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 2000,
+            "hpRegen": 60,
+            "advancedTraining": 100,
+            "nguSpeed": 100,
+            "wSpeed": 100
+        }
+    },
+    {
+        "id": "139_RingOfWayTooMuchEnergy",
+        "name": "Ring of Way Too Much Energy",
+        "set": "UUGRings",
+        "type": "accessory",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 2000,
+            "hpRegen": 60,
+            "eBars": 240,
+            "eCap": 80,
+            "ePower": 500
+        }
+    },
+    {
+        "id": "140_RingOfWayTooMuchMagic",
+        "name": "Ring of Way Too Much Magic",
+        "set": "UUGRings",
+        "type": "accessory",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 2000,
+            "hpRegen": 60,
+            "mBars": 240,
+            "mCap": 80,
+            "mPower": 500
+        }
+    },
+    {
+        "id": "142_AscendedAscendedAscendedPendant",
+        "name": "Ascended Ascended Ascended Pendant",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 80000,
+            "maxHP": 240000,
+            "toughness": 80000,
+            "hpRegen": 2400,
+            "dropChance": 200,
+            "ePower": 540,
+            "goldDrops": 1600
+        }
     }
 ]

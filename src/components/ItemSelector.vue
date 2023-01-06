@@ -23,12 +23,14 @@
                                 <option value="Cave">Cave</option>
                                 <option value="Clock">Clock</option>
                                 <option value="Forest">Forest</option>
+                                <option value="Gaudy">Gaudy</option>
                                 <option value="GRB">GRB</option>
                                 <option value="HSB">HSB</option>
                                 <option value="Jake">Jake</option>
                                 <option value="Sewers">Sewers</option>
                                 <option value="Spoopy">Spoopy</option>
                                 <option value="Training">Training</option>
+                                <option value="UUGRings">UUGs Rings</option>
                             </select>
                         </div>
                     </div>

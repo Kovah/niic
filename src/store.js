@@ -17,8 +17,10 @@ export const store = reactive({
     },
     openItemSelector () {
         this.itemSelector.isOpen = true;
+        document.body.classList.add('overflow-hidden');
     },
     closeItemSelector () {
         this.itemSelector.isOpen = false;
+        document.body.classList.remove('overflow-hidden');
     }
 });

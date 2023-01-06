@@ -22,52 +22,52 @@
             <th colspan="2">Special Bonuses</th>
         </tr>
         <tr>
-            <td class="bg-ngu-energy/10">Energy Power</td>
-            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('ePower')">{{ ePower }}</td>
+            <td class="bg-ngu-energy/20">Energy Power</td>
+            <td :class="'bonus bg-ngu-energy/10 ' + bonusClass('ePower')">{{ ePower }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-energy/10">Energy Bars</td>
-            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('eBars')">{{ eBars }}</td>
+            <td class="bg-ngu-energy/20">Energy Bars</td>
+            <td :class="'bonus bg-ngu-energy/10 ' + bonusClass('eBars')">{{ eBars }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-energy/10">Energy Cap</td>
-            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('eCap')">{{ eCap }}</td>
+            <td class="bg-ngu-energy/20">Energy Cap</td>
+            <td :class="'bonus bg-ngu-energy/10 ' + bonusClass('eCap')">{{ eCap }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-energy/10">Energy Speed</td>
-            <td :class="'bonus bg-ngu-energy/5 ' + bonusClass('eSpeed')">{{ eSpeed }}</td>
+            <td class="bg-ngu-energy/20">Energy Speed</td>
+            <td :class="'bonus bg-ngu-energy/10 ' + bonusClass('eSpeed')">{{ eSpeed }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-magic/10">Magic Power</td>
-            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mPower')">{{ mPower }}</td>
+            <td class="bg-ngu-magic/20">Magic Power</td>
+            <td :class="'bonus bg-ngu-magic/10 ' + bonusClass('mPower')">{{ mPower }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-magic/10">Magic Bars</td>
-            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mBars')">{{ mBars }}</td>
+            <td class="bg-ngu-magic/20">Magic Bars</td>
+            <td :class="'bonus bg-ngu-magic/10 ' + bonusClass('mBars')">{{ mBars }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-magic/10">Magic Cap</td>
-            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mCap')">{{ mCap }}</td>
+            <td class="bg-ngu-magic/20">Magic Cap</td>
+            <td :class="'bonus bg-ngu-magic/10 ' + bonusClass('mCap')">{{ mCap }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-magic/10">Magic Speed</td>
-            <td :class="'bonus bg-ngu-magic/5 ' + bonusClass('mSpeed')">{{ mSpeed }}</td>
+            <td class="bg-ngu-magic/20">Magic Speed</td>
+            <td :class="'bonus bg-ngu-magic/10 ' + bonusClass('mSpeed')">{{ mSpeed }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-three/10">Three Power</td>
-            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threePower')">{{ threePower }}</td>
+            <td class="bg-ngu-three/20">Three Power</td>
+            <td :class="'bonus bg-ngu-three/10 ' + bonusClass('threePower')">{{ threePower }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-three/10">Three Bars</td>
-            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threeBars')">{{ threeBars }}</td>
+            <td class="bg-ngu-three/20">Three Bars</td>
+            <td :class="'bonus bg-ngu-three/10 ' + bonusClass('threeBars')">{{ threeBars }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-three/10">Three Cap</td>
-            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threeCap')">{{ threeCap }}</td>
+            <td class="bg-ngu-three/20">Three Cap</td>
+            <td :class="'bonus bg-ngu-three/10 ' + bonusClass('threeCap')">{{ threeCap }}</td>
         </tr>
         <tr>
-            <td class="bg-ngu-three/10">Three Speed</td>
-            <td :class="'bonus bg-ngu-three/5 ' + bonusClass('threeSpeed')">{{ threeSpeed }}</td>
+            <td class="bg-ngu-three/20">Three Speed</td>
+            <td :class="'bonus bg-ngu-three/10 ' + bonusClass('threeSpeed')">{{ threeSpeed }}</td>
         </tr>
         <tr class="divider"></tr>
         <tr>

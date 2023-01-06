@@ -1,6 +1,6 @@
 <template>
-    <div v-show="store.itemSelector.isOpen" class="absolute z-30 left-0 top-0 right-0 bottom-0">
-        <div class="container mx-auto pt-10">
+    <div v-if="store.itemSelector.isOpen" class="absolute z-30 left-0 top-0 right-0 bottom-0">
+        <div class="container max-h-full mx-auto py-5 overflow-y-auto">
             <div class="relative z-40 bg-gray-900 rounded-xl border border-gray-900 w-full max-w-xl mx-auto shadow-xl">
                 <div class="rounded-xl border border-gray-700 p-4">
 
@@ -40,9 +40,9 @@
 
 
                     <div class="flex flex-wrap">
-                        <div class="w-12 h-12 border-2 border-gray-700 text-xs break-words cursor-pointer"
+                        <div class="w-12 h-12 border-2 border-gray-700 text-xs break-words overflow-hidden cursor-pointer"
                             v-for="item in itemList" v-on:click="applyItem(item)">
-                            <img :src="'/items/' + item.id + '.png'" :alt="item.name">
+                            <img :src="'/items/' + item.id + '.png'" :alt="item.name" loading="lazy">
                         </div>
                     </div>
 

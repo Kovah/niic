@@ -1201,5 +1201,305 @@
             "ePower": 540,
             "goldDrops": 1600
         }
+    },
+    {
+        "id": "147_BeardedAxe",
+        "name": "Bearded Axe",
+        "set": "Beardverse",
+        "type": "weapon",
+        "bonus": {
+            "power": 16600,
+            "maxHP": 498000,
+            "toughness": 12000,
+            "hpRegen": 360,
+            "bSpeed": 20,
+            "eBars": 440,
+            "mBars": 440
+        }
+    },
+    {
+        "id": "143_GrouchoMarxDisguise",
+        "name": "Groucho Marx Disguise",
+        "set": "Beardverse",
+        "type": "head",
+        "bonus": {
+            "power": 2200,
+            "maxHP": 6600,
+            "toughness": 24000,
+            "hpRegen": 660,
+            "ePower": 360,
+            "mBars": 480,
+            "mCap": 96
+        }
+    },
+    {
+        "id": "144_GossamerChest",
+        "name": "Gossamer Chest",
+        "set": "Beardverse",
+        "type": "chest",
+        "bonus": {
+            "power": 2200,
+            "maxHP": 6600,
+            "toughness": 25000,
+            "hpRegen": 750,
+            "eCap": 124,
+            "mCap": 100
+        }
+    },
+    {
+        "id": "145_BraidedBeardLegs",
+        "name": "Braided Beard Legs",
+        "set": "Beardverse",
+        "type": "legs",
+        "bonus": {
+            "power": 2200,
+            "maxHP": 6600,
+            "toughness": 25000,
+            "hpRegen": 750,
+            "mBars": 460,
+            "mCap": 86,
+            "mPower": 580
+        }
+    },
+    {
+        "id": "146_FuzzyOrangeCheetoSlippers",
+        "name": "Fuzzy Orange Cheeto Slippers",
+        "set": "Beardverse",
+        "type": "boots",
+        "bonus": {
+            "power": 2400,
+            "maxHP": 7200,
+            "toughness": 25000,
+            "hpRegen": 750,
+            "eBars": 660,
+            "eCap": 40,
+            "ePower": 440
+        }
+    },
+    {
+        "id": "148_AnInfinitelyLongStrandOfBeardHair",
+        "name": "An Infinitely Long Strand of Beard Hair",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 16000,
+            "maxHP": 48000,
+            "toughness": 16000,
+            "hpRegen": 480,
+            "bSpeed": 20,
+            "ePower": 900,
+            "mPower": 700
+        }
+    },
+    {
+        "id": "149_UugSSpecialRing",
+        "name": "UUG's 'Special' Ring",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 24000,
+            "maxHP": 7200,
+            "toughness": 24000,
+            "hpRegen": 720,
+            "bSpeed": 20,
+            "nguSpeed": 200,
+            "seedGain": 30
+        }
+    },
+    {
+        "id": "150_WanderersHat",
+        "name": "Wanderer's Hat",
+        "set": "Wanderer",
+        "type": "head",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 44000,
+            "hpRegen": 1320,
+            "eCap": 170,
+            "ePower": 1500,
+            "mPower": 400
+        }
+    },
+    {
+        "id": "151_WanderersChest",
+        "name": "Wanderer's Chest",
+        "set": "Wanderer",
+        "type": "chest",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 46000,
+            "hpRegen": 1380,
+            "eBars": 1200,
+            "ePower": 1600,
+            "mCap": 60
+        }
+    },
+    {
+        "id": "152_WanderersPants",
+        "name": "Wanderer's Pants",
+        "set": "Wanderer",
+        "type": "legs",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 46000,
+            "hpRegen": 1380,
+            "eBars": 1600,
+            "eCap": 170,
+            "mBars": 400
+        }
+    },
+    {
+        "id": "153_WanderersBoots",
+        "name": "Wanderer's Boots",
+        "set": "Wanderer",
+        "type": "boots",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 48000,
+            "hpRegen": 1440,
+            "nguSpeed": 120,
+            "wSpeed": 260
+        }
+    },
+    {
+        "id": "154_WanderersCane",
+        "name": "Wanderer's Cane",
+        "set": "Wanderer",
+        "type": "weapon",
+        "bonus": {
+            "power": 340000,
+            "maxHP": 1020000,
+            "toughness": 24000,
+            "hpRegen": 720
+        }
+    },
+    {
+        "id": "155_TaHSRerednaW",
+        "name": "taH s'rerednaW",
+        "set": "rerednaW",
+        "type": "head",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 42000,
+            "hpRegen": 1260,
+            "ePower": 400,
+            "mCap": 170,
+            "mPower": 1500
+        }
+    },
+    {
+        "id": "156_TsehCSRerednaW",
+        "name": "tsehC s'rerednaW",
+        "set": "rerednaW",
+        "type": "chest",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 44000,
+            "hpRegen": 1320,
+            "eCap": 60,
+            "mBars": 1200,
+            "mPower": 1600
+        }
+    },
+    {
+        "id": "157_StnaPSRerednaW",
+        "name": "stnaP s'rerednaW",
+        "set": "rerednaW",
+        "type": "legs",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 46000,
+            "hpRegen": 1380,
+            "eBars": 400,
+            "mBars": 1600,
+            "mCap": 170
+        }
+    },
+    {
+        "id": "158_StooBSRerednaW",
+        "name": "StooB s'rerednaW",
+        "set": "rerednaW",
+        "type": "boots",
+        "bonus": {
+            "power": 2000,
+            "maxHP": 6000,
+            "toughness": 48000,
+            "hpRegen": 1440,
+            "bSpeed": 80,
+            "seedGain": 60
+        }
+    },
+    {
+        "id": "159_TheCandyCaneOfDestiny",
+        "name": "The Candy Cane of Destiny",
+        "set": "Wanderer",
+        "type": "weapon",
+        "bonus": {
+            "power": 340000,
+            "maxHP": 1020000,
+            "toughness": 24000,
+            "hpRegen": 720,
+            "eBars": 2000,
+            "eCap": 200,
+            "ePower": 2000,
+            "mBars": 2000,
+            "mCap": 200,
+            "mPower": 2000
+        }
+    },
+    {
+        "id": "160_FannyPack",
+        "name": "Fanny Pack",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 30000,
+            "maxHP": 90000,
+            "toughness": 30000,
+            "hpRegen": 900,
+            "dropChance": 60,
+            "eCap": 60,
+            "ePower": 1000,
+            "mCap": 60,
+            "mPower": 1000
+        }
+    },
+    {
+        "id": "161_DorkyGlasses",
+        "name": "Dorky Glasses",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 10000,
+            "maxHP": 30000,
+            "toughness": 10000,
+            "hpRegen": 300,
+            "eBars": 1000,
+            "mBars": 1000,
+            "nguSpeed": 300,
+            "wSpeed": 240
+        }
+    },
+    {
+        "id": "162_MyBrownHeart",
+        "name": "My Brown Heart",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 200,
+            "maxHP": 600,
+            "toughness": 200,
+            "hpRegen": 6,
+            "ePower": 200,
+            "mPower": 200,
+            "seedGain": 70
+        }
     }
 ]

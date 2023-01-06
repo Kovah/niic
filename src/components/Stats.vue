@@ -91,6 +91,14 @@
             <td :class="'bonus ' + bonusClass('nguSpeed')">{{ nguSpeed }}</td>
         </tr>
         <tr>
+            <td>Windoows Speed</td>
+            <td :class="'bonus ' + bonusClass('wSpeed')">{{ wSpeed }}</td>
+        </tr>
+        <tr>
+            <td>Beard Speed</td>
+            <td :class="'bonus ' + bonusClass('bSpeed')">{{ bSpeed }}</td>
+        </tr>
+        <tr>
             <td>Daycare Speed</td>
             <td :class="'bonus ' + bonusClass('daycareSpeed')">{{ daycareSpeed }}</td>
         </tr>
@@ -217,6 +225,12 @@ export default {
         },
         nguSpeed () {
             return calculatePercentBonus(this.item.bonus?.nguSpeed);
+        },
+        bSpeed () {
+            return calculatePercentBonus(this.item.bonus?.bSpeed);
+        },
+        wSpeed () {
+            return calculatePercentBonus(this.item.bonus?.wSpeed);
         },
         daycareSpeed () {
             return calculatePercentBonus(this.item.bonus?.daycareSpeed);

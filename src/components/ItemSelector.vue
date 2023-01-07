@@ -23,12 +23,16 @@
                                 <option value="BadlyDrawn">Badly Drawn</option>
                                 <option value="Beardverse">Beardverse</option>
                                 <option value="Cave">Cave</option>
+                                <option value="Choco">Choco</option>
                                 <option value="Clock">Clock</option>
+                                <option value="Edgy">Edgy</option>
                                 <option value="Forest">Forest</option>
                                 <option value="Gaudy">Gaudy</option>
                                 <option value="GRB">GRB</option>
+                                <option value="Hearts">Hearts</option>
                                 <option value="HSB">HSB</option>
                                 <option value="Jake">Jake</option>
+                                <option value="PrettyPinkPrincess">Pretty Pink Princess</option>
                                 <option value="rerednaW">rerednaW</option>
                                 <option value="Sewers">Sewers</option>
                                 <option value="Spoopy">Spoopy</option>

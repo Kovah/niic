@@ -909,7 +909,7 @@
     {
         "id": "119_MyRedHeart",
         "name": "My Red Heart",
-        "set": null,
+        "set": "Hearts",
         "type": "accessory",
         "bonus": {
             "power": 200,
@@ -1037,7 +1037,7 @@
     {
         "id": "129_MyYellowHeart",
         "name": "My Yellow Heart",
-        "set": null,
+        "set": "Hearts",
         "type": "accessory",
         "bonus": {
             "power": 200,
@@ -1490,7 +1490,7 @@
     {
         "id": "162_MyBrownHeart",
         "name": "My Brown Heart",
-        "set": null,
+        "set": "Hearts",
         "type": "accessory",
         "bonus": {
             "power": 200,
@@ -1611,7 +1611,7 @@
     {
         "id": "171_MyGreenHeart",
         "name": "My Green Heart",
-        "set": "",
+        "set": "Hearts",
         "type": "accessory",
         "bonus": {
             "power": 200,
@@ -1811,6 +1811,465 @@
             "eCap": 300,
             "mCap": 300,
             "wSpeed": 400
+        }
+    },
+    {
+        "id": "190_AShrunkenVoodooDoll",
+        "name": "A Shrunken Voodoo Doll",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 133332,
+            "maxHP": 399996,
+            "toughness": 133332,
+            "hpRegen": 3999.96,
+            "bSpeed": 400,
+            "nguSpeed": 400
+        }
+    },
+    {
+        "id": "192_APricelessVanGoghPaintingN",
+        "name": "A Priceless Van-Gogh Painting\n",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 60000,
+            "maxHP": 180000,
+            "toughness": 60000,
+            "hpRegen": 1800,
+            "eCap": 400,
+            "goldDrops": 6000,
+            "mCap": 400
+        }
+    },
+    {
+        "id": "193_AGiantApple",
+        "name": "A Giant Apple",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 100000,
+            "maxHP": 300000,
+            "toughness": 100000,
+            "hpRegen": 3000,
+            "seedGain": 100,
+            "yggdrasilYield": 20
+        }
+    },
+    {
+        "id": "194_APowerPill",
+        "name": "A Power Pill",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 500000,
+            "hpRegen": 15000,
+            "eBars": 6000,
+            "eCap": 600,
+            "ePower": 6000,
+            "mBars": 6000,
+            "mCap": 600,
+            "mPower": 6000
+        }
+    },
+    {
+        "id": "195_ASmallGerbil",
+        "name": "A Small Gerbil",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 200000,
+            "maxHP": 600000,
+            "toughness": 200000,
+            "hpRegen": 6000,
+            "ePower": 12000,
+            "mCap": 1200,
+            "mPower": 12000
+        }
+    },
+    {
+        "id": "196_MyBlueHeart",
+        "name": "My Blue Heart",
+        "set": "Hearts",
+        "type": "accessory",
+        "bonus": {
+            "power": 840,
+            "maxHP": 2520,
+            "toughness": 840,
+            "hpRegen": 25.2,
+            "goldDrops": 200,
+            "nguSpeed": 80
+        }
+    },
+    {
+        "id": "212_MyPurpleHeart",
+        "name": "My Purple Heart",
+        "set": "Hearts",
+        "type": "accessory",
+        "bonus": {
+            "power": 200,
+            "maxHP": 600,
+            "toughness": 2000,
+            "hpRegen": 60,
+            "bSpeed": 80,
+            "dropChance": 80
+        }
+    },
+    {
+        "id": "217_EdgyJawAxe",
+        "name": "Edgy Jaw Axe",
+        "set": "Edgy",
+        "type": "weapon",
+        "bonus": {
+            "power": 11200000,
+            "maxHP": 33600000,
+            "toughness": 600000,
+            "hpRegen": 18000,
+            "ePower": 8800,
+            "mBars": 3400,
+            "mCap": 840
+        }
+    },
+    {
+        "id": "213_EdgyHelmet",
+        "name": "Edgy Helmet",
+        "set": "Edgy",
+        "type": "head",
+        "bonus": {
+            "power": 80000,
+            "maxHP": 240000,
+            "toughness": 100400,
+            "hpRegen": 30120,
+            "ePower": 7200,
+            "mBars": 5200,
+            "mCap": 660,
+            "mPower": 7200
+        }
+    },
+    {
+        "id": "214_EdgyChest",
+        "name": "Edgy Chest",
+        "set": "Edgy",
+        "type": "chest",
+        "bonus": {
+            "power": 60000,
+            "maxHP": 180000,
+            "toughness": 1080000,
+            "hpRegen": 32400,
+            "eCap": 920,
+            "ePower": 8200,
+            "mBars": 7400,
+            "mCap": 920,
+            "mPower": 8200
+        }
+    },
+    {
+        "id": "215_EdgyPants",
+        "name": "Edgy Pants",
+        "set": "Edgy",
+        "type": "legs",
+        "bonus": {
+            "power": 60000,
+            "maxHP": 180000,
+            "toughness": 1110000,
+            "hpRegen": 33300,
+            "eBars": 6600,
+            "eCap": 900,
+            "ePower": 11000,
+            "mPower": 11000
+        }
+    },
+    {
+        "id": "219_RightEdgyBoot",
+        "name": "Right Edgy Boot",
+        "set": "Edgy",
+        "type": "boots",
+        "bonus": {
+            "power": 60000,
+            "maxHP": 180000,
+            "toughness": 1032000,
+            "hpRegen": 30960,
+            "mBars": 9600,
+            "mCap": 960,
+            "mPower": 9600
+        }
+    },
+    {
+        "id": "220_BothEdgyBoots",
+        "name": "BOTH Edgy Boots",
+        "set": "Edgy",
+        "type": "boots",
+        "bonus": {
+            "power": 120000,
+            "maxHP": 360000,
+            "toughness": 1080000,
+            "hpRegen": 32400,
+            "eBars": 8400,
+            "eCap": 840,
+            "ePower": 8400,
+            "mBars": 8400,
+            "mCap": 840,
+            "mPower": 8400
+        }
+    },
+    {
+        "id": "218_ACheapPlasticAmulet",
+        "name": "A Cheap Plastic Amulet",
+        "set": "Edgy",
+        "type": "accessory",
+        "bonus": {
+            "power": 300000,
+            "maxHP": 900000,
+            "toughness": 300000,
+            "hpRegen": 9000,
+            "eBars": 6400,
+            "eCap": 720,
+            "ePower": 9000,
+            "mBars": 6400,
+            "mCap": 720,
+            "mPower": 900
+        }
+    },
+    {
+        "id": "225_ChocolateCrowbar",
+        "name": "Chocolate Crowbar",
+        "set": "Choco",
+        "type": "weapon",
+        "bonus": {
+            "power": 7600000,
+            "maxHP": 22800000,
+            "toughness": 400000,
+            "hpRegen": 12000,
+            "eBars": 3600,
+            "ePower": 6000,
+            "mBars": 3600,
+            "mCap": 580
+        }
+    },
+    {
+        "id": "221_ChocolateHelmet",
+        "name": "Chocolate Helmet",
+        "set": "Choco",
+        "type": "head",
+        "bonus": {
+            "power": 60000,
+            "maxHP": 180000,
+            "toughness": 704000,
+            "hpRegen": 21120,
+            "ePower": 5200,
+            "mBars": 2800,
+            "mCap": 380
+        }
+    },
+    {
+        "id": "222_ChocolateChest",
+        "name": "Chocolate Chest",
+        "set": "Choco",
+        "type": "chest",
+        "bonus": {
+            "power": 40000,
+            "maxHP": 120000,
+            "toughness": 740000,
+            "hpRegen": 22200,
+            "eCap": 600,
+            "ePower": 5800,
+            "mBars": 5000,
+            "mCap": 600,
+            "mPower": 5800
+        }
+    },
+    {
+        "id": "223_ChocolatePants",
+        "name": "Chocolate Pants",
+        "set": "Choco",
+        "type": "legs",
+        "bonus": {
+            "power": 40000,
+            "maxHP": 120000,
+            "toughness": 710000,
+            "hpRegen": 21300,
+            "eBars": 3400,
+            "eCap": 460,
+            "ePower": 5600,
+            "mPower": 5600
+        }
+    },
+    {
+        "id": "224_ChocolateBoots",
+        "name": "Chocolate Boots",
+        "set": "Choco",
+        "type": "boots",
+        "bonus": {
+            "power": 40000,
+            "maxHP": 120000,
+            "toughness": 732000,
+            "hpRegen": 21960,
+            "eBars": 6800,
+            "eCap": 680,
+            "ePower": 6800
+        }
+    },
+    {
+        "id": "226_EnergyBarBarAccessory",
+        "name": "Energy Bar Bar Accessory",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 100000,
+            "maxHP": 300000,
+            "toughness": 100000,
+            "hpRegen": 3000,
+            "eBars": 4400,
+            "eCap": 500,
+            "ePower": 6000
+        }
+    },
+    {
+        "id": "227_MagicBarBarAccessory",
+        "name": "Magic Bar Bar Accessory",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 100000,
+            "maxHP": 300000,
+            "toughness": 100000,
+            "hpRegen": 3000,
+            "mBars": 4400,
+            "mCap": 500,
+            "mPower": 6000
+        }
+    },
+    {
+        "id": "229_AscendedX5Pendant",
+        "name": "Ascended x5 Pendant",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 800000,
+            "maxHP": 2400000,
+            "toughness": 800000,
+            "hpRegen": 24000,
+            "eCap": 1000,
+            "ePower": 10000,
+            "mCap": 1000,
+            "mPower": 10000,
+            "nguSpeed": 500
+        }
+    },
+    {
+        "id": "230_EmperorLooty",
+        "name": "Emperor Looty",
+        "set": "",
+        "type": "accessory",
+        "bonus": {
+            "power": 600000,
+            "maxHP": 1800000,
+            "toughness": 600000,
+            "hpRegen": 18000,
+            "dropChance": 600,
+            "eCap": 300,
+            "ePower": 3000,
+            "mCap": 300,
+            "mPower": 3000
+        }
+    },
+    {
+        "id": "231_ClownHat",
+        "name": "Clown Hat",
+        "set": "PrettyPinkPrincess",
+        "type": "head",
+        "bonus": {
+            "power": 120000,
+            "maxHP": 360000,
+            "toughness": 1484000,
+            "hpRegen": 44520,
+            "eBars": 7000,
+            "eCap": 1100,
+            "mBars": 7000,
+            "mCap": 1100,
+            "mPower": 11000
+        }
+    },
+    {
+        "id": "232_FabulousSuperChest",
+        "name": "Fabulous Super Chest",
+        "set": "PrettyPinkPrincess",
+        "type": "chest",
+        "bonus": {
+            "power": 120000,
+            "maxHP": 360000,
+            "toughness": 1480000,
+            "hpRegen": 44400,
+            "eCap": 1100,
+            "ePower": 10800,
+            "mBars": 10600,
+            "mCap": 1100,
+            "mPower": 10800
+        }
+    },
+    {
+        "id": "233_ACrappyTutu",
+        "name": "A Crappy Tutu",
+        "set": "PrettyPinkPrincess",
+        "type": "legs",
+        "bonus": {
+            "power": 100000,
+            "maxHP": 300000,
+            "toughness": 1510000,
+            "hpRegen": 45300,
+            "eBars": 10000,
+            "eCap": 1200,
+            "ePower": 14000,
+            "mCap": 1200
+        }
+    },
+    {
+        "id": "234_PrettyPinkSlippers",
+        "name": "Pretty Pink Slippers",
+        "set": "PrettyPinkPrincess",
+        "type": "boots",
+        "bonus": {
+            "power": 60000,
+            "maxHP": 180000,
+            "toughness": 1460000,
+            "hpRegen": 43800,
+            "ePower": 13000,
+            "mBars": 10000,
+            "mCap": 1260,
+            "mPower": 13000
+        }
+    },
+    {
+        "id": "235_GiantStickyFoot",
+        "name": "Giant Sticky Foot",
+        "set": "PrettyPinkPrincess",
+        "type": "accessory",
+        "bonus": {
+            "power": 15200000,
+            "maxHP": 45600000,
+            "toughness": 880000,
+            "hpRegen": 26400,
+            "eCap": 1140,
+            "ePower": 12000,
+            "mBars": 6600,
+            "mPower": 12000
+        }
+    },
+    {
+        "id": "236_APrettyPinkBow",
+        "name": "A Pretty Pink Bow",
+        "set": "PrettyPinkPrincess",
+        "type": "accessory",
+        "bonus": {
+            "power": 800000,
+            "maxHP": 2400000,
+            "toughness": 800000,
+            "hpRegen": 24000,
+            "dSpeed": 20,
+            "nguSpeed": 340,
+            "questDrops": 10
         }
     }
 ]

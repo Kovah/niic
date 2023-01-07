@@ -114,6 +114,10 @@
             <td>Move Cooldown</td>
             <td :class="'bonus ' + bonusClass('moveCooldown')">{{ moveCooldown }}</td>
         </tr>
+        <tr>
+            <td>Yggdrasil Yield</td>
+            <td :class="'bonus ' + bonusClass('yggdrasilYield')">{{ yggdrasilYield }}</td>
+        </tr>
         <tr class="divider"></tr>
         <tr>
             <th colspan="2">Player Stat Boosts</th>
@@ -233,20 +237,23 @@ export default {
         bSpeed () {
             return calculatePercentBonus(this.item.bonus?.bSpeed);
         },
+        dSpeed () {
+            return calculatePercentBonus(this.item.bonus?.dSpeed);
+        },
         nguSpeed () {
             return calculatePercentBonus(this.item.bonus?.nguSpeed);
         },
         wSpeed () {
             return calculatePercentBonus(this.item.bonus?.wSpeed);
         },
-        daycareSpeed () {
-            return calculatePercentBonus(this.item.bonus?.daycareSpeed);
-        },
         questDrops () {
             return calculatePercentBonus(this.item.bonus?.questDrops);
         },
         moveCooldown () {
             return calculatePercentBonus(this.item.bonus?.moveCooldown);
+        },
+        yggdrasilYield () {
+            return calculatePercentBonus(this.item.bonus?.yggdrasilYield);
         },
         attack () {
             return calculateBonus(this.item.bonus?.attack);

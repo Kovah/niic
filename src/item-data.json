@@ -1501,5 +1501,316 @@
             "mPower": 200,
             "seedGain": 70
         }
+    },
+    {
+        "id": "168_BadlyDrawnGun",
+        "name": "Badly Drawn Gun",
+        "set": "BadlyDrawn",
+        "type": "weapon",
+        "bonus": {
+            "power": 1000000,
+            "maxHP": 3000000,
+            "toughness": 50000,
+            "hpRegen": 1500,
+            "aSpeed": 240,
+            "eCap": 120,
+            "ePower": 1200,
+            "mCap": 120,
+            "mPower": 1200
+        }
+    },
+    {
+        "id": "164_BadlyDrawnSmileyFace",
+        "name": "Badly Drawn Smiley Face",
+        "set": "BadlyDrawn",
+        "type": "head",
+        "bonus": {
+            "toughness": 120000,
+            "hpRegen": 3600,
+            "advancedTraining": 320,
+            "eBars": 900,
+            "goldDrops": 2400,
+            "mBars": 900
+        }
+    },
+    {
+        "id": "165_BadlyDrawnChest",
+        "name": "Badly Drawn Chest",
+        "set": "BadlyDrawn",
+        "type": "chest",
+        "bonus": {
+            "toughness": 120000,
+            "hpRegen": 3600,
+            "eBars": 900,
+            "ePower": 2800,
+            "mBars": 900,
+            "mCap": 270
+        }
+    },
+    {
+        "id": "166_BadlyDrawnPants",
+        "name": "Badly Drawn Pants",
+        "set": "BadlyDrawn",
+        "type": "legs",
+        "bonus": {
+            "toughness": 120000,
+            "hpRegen": 3600,
+            "eCap": 260,
+            "ePower": 800,
+            "mBars": 2800,
+            "mPower": 800
+        }
+    },
+    {
+        "id": "167_BadlyDrawnFoot",
+        "name": "Badly Drawn Foot",
+        "set": "BadlyDrawn",
+        "type": "boots",
+        "bonus": {
+            "toughness": 12000,
+            "hpRegen": 3600,
+            "eBars": 2400,
+            "eCap": 80,
+            "mCap": 80,
+            "mPower": 2400
+        }
+    },
+    {
+        "id": "169_KingLooty",
+        "name": "King Looty",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 200000,
+            "maxHP": 600000,
+            "toughness": 200000,
+            "hpRegen": 6000,
+            "dropChance": 200,
+            "eCap": 80,
+            "ePower": 800,
+            "mCap": 80,
+            "mPower": 800
+        }
+    },
+    {
+        "id": "170_AscendedX4Pendant",
+        "name": "Ascended x4 Pendant",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 200000,
+            "maxHP": 1600000,
+            "toughness": 200000,
+            "hpRegen": 6000,
+            "dropChance": 500,
+            "eCap": 240,
+            "mCap": 240,
+            "questDrops": 10
+        }
+    },
+    {
+        "id": "171_MyGreenHeart",
+        "name": "My Green Heart",
+        "set": "",
+        "type": "accessory",
+        "bonus": {
+            "power": 200,
+            "maxHP": 600,
+            "toughness": 200,
+            "hpRegen": 6,
+            "bSpeed": 60,
+            "dropChance": 100,
+            "respawn": 8
+        }
+    },
+    {
+        "id": "177_AGiantBazooka",
+        "name": "A Giant Bazooka",
+        "set": "Stealth",
+        "type": "weapon",
+        "bonus": {
+            "power": 2000000,
+            "maxHP": 6000000,
+            "toughness": 120000,
+            "hpRegen": 3600,
+            "eCap": 240,
+            "ePower": 2400,
+            "mCap": 240,
+            "mPower": 2400
+        }
+    },
+    {
+        "id": "173_StealthyHat",
+        "name": "Stealthy Hat",
+        "set": "Stealth",
+        "type": "head",
+        "bonus": {
+            "power": 10000,
+            "maxHP": 30000,
+            "toughness": 224000,
+            "hpRegen": 6720,
+            "eCap": 350,
+            "ePower": 2400,
+            "mCap": 170
+        }
+    },
+    {
+        "id": "174_StealthyChest",
+        "name": "Stealthy Chest",
+        "set": "Stealth",
+        "type": "chest",
+        "bonus": {
+            "power": 10000,
+            "maxHP": 30000,
+            "toughness": 230000,
+            "hpRegen": 6900,
+            "eBars": 3800,
+            "ePower": 1800,
+            "mBars": 1600,
+            "mPower": 1800
+        }
+    },
+    {
+        "id": "175_NoPants",
+        "name": "No Pants",
+        "set": "Stealth",
+        "type": "legs",
+        "bonus": {
+            "power": 10000,
+            "maxHP": 30000,
+            "toughness": 236000,
+            "hpRegen": 6720,
+            "eCap": 350,
+            "ePower": 2400,
+            "mCap": 170
+        }
+    },
+    {
+        "id": "176_HighHeeledBoots",
+        "name": "High Heeled Boots",
+        "set": "Stealth",
+        "type": "boots",
+        "bonus": {
+            "power": 10000,
+            "maxHP": 30000,
+            "toughness": 244000,
+            "hpRegen": 7320,
+            "eCap": 400,
+            "mCap": 120,
+            "mPower": 2800
+        }
+    },
+    {
+        "id": "178_TheStealthiestArmour",
+        "name": "The Stealthiest Armour",
+        "set": "Stealth",
+        "type": "chest",
+        "bonus": {
+            "power": 16000,
+            "maxHP": 4800,
+            "toughness": 300000,
+            "hpRegen": 9000,
+            "eBars": 4000,
+            "eCap": 420,
+            "mBars": 4000,
+            "mCap": 420,
+            "nguSpeed": 400
+        }
+    },
+    {
+        "id": "188_TheFistsOfFlubber",
+        "name": "The Fists of Flubber",
+        "set": "Slimy",
+        "type": "weapon",
+        "bonus": {
+            "power": 4400000,
+            "maxHP": 13200000,
+            "toughness": 200000,
+            "hpRegen": 6000,
+            "mBars": 2400,
+            "mCap": 400,
+            "mPower": 4000
+        }
+    },
+    {
+        "id": "184_SlimyHelmet",
+        "name": "Slimy Helmet",
+        "set": "Slimy",
+        "type": "head",
+        "bonus": {
+            "power": 22000,
+            "maxHP": 66000,
+            "toughness": 484000,
+            "hpRegen": 14520,
+            "ePower": 2800,
+            "mBars": 2000,
+            "mCap": 300,
+            "mPower": 2800
+        }
+    },
+    {
+        "id": "185_SlimyChest",
+        "name": "Slimy Chest",
+        "set": "Slimy",
+        "type": "chest",
+        "bonus": {
+            "power": 22000,
+            "maxHP": 66000,
+            "toughness": 500000,
+            "hpRegen": 15000,
+            "eBars": 2400,
+            "eCap": 300,
+            "mCap": 300,
+            "mPower": 2800
+        }
+    },
+    {
+        "id": "186_SlimyPants",
+        "name": "Slimy Pants",
+        "set": "Slimy",
+        "type": "legs",
+        "bonus": {
+            "power": 20000,
+            "maxHP": 60000,
+            "toughness": 490000,
+            "hpRegen": 14700,
+            "eBars": 2000,
+            "eCap": 320,
+            "ePower": 3600,
+            "mBars": 2000
+        }
+    },
+    {
+        "id": "187_SlimyBoots",
+        "name": "Slimy Boots",
+        "set": "Slimy",
+        "type": "boots",
+        "bonus": {
+            "power": 20000,
+            "maxHP": 60000,
+            "toughness": 480000,
+            "hpRegen": 14400,
+            "eBars": 2800,
+            "eCap": 280,
+            "ePower": 2800,
+            "mBars": 2800,
+            "mCap": 280,
+            "mPower": 2800
+        }
+    },
+    {
+        "id": "189_ABaldEgg",
+        "name": "A Bald Egg",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 66666,
+            "maxHP": 199998,
+            "toughness": 66666,
+            "hpRegen": 1999.98,
+            "eCap": 300,
+            "mCap": 300,
+            "wSpeed": 400
+        }
     }
 ]

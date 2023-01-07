@@ -87,16 +87,20 @@
             <td :class="'bonus ' + bonusClass('respawn')">{{ respawn }}</td>
         </tr>
         <tr>
+            <td>Augment Speed</td>
+            <td :class="'bonus ' + bonusClass('aSpeed')">{{ aSpeed }}</td>
+        </tr>
+        <tr>
+            <td>Beard Speed</td>
+            <td :class="'bonus ' + bonusClass('bSpeed')">{{ bSpeed }}</td>
+        </tr>
+        <tr>
             <td>NGU Speed</td>
             <td :class="'bonus ' + bonusClass('nguSpeed')">{{ nguSpeed }}</td>
         </tr>
         <tr>
             <td>Windoows Speed</td>
             <td :class="'bonus ' + bonusClass('wSpeed')">{{ wSpeed }}</td>
-        </tr>
-        <tr>
-            <td>Beard Speed</td>
-            <td :class="'bonus ' + bonusClass('bSpeed')">{{ bSpeed }}</td>
         </tr>
         <tr>
             <td>Daycare Speed</td>
@@ -223,11 +227,14 @@ export default {
         threeSpeed () {
             return calculatePercentBonus(this.item.bonus?.threeSpeed);
         },
-        nguSpeed () {
-            return calculatePercentBonus(this.item.bonus?.nguSpeed);
+        aSpeed () {
+            return calculatePercentBonus(this.item.bonus?.aSpeed);
         },
         bSpeed () {
             return calculatePercentBonus(this.item.bonus?.bSpeed);
+        },
+        nguSpeed () {
+            return calculatePercentBonus(this.item.bonus?.nguSpeed);
         },
         wSpeed () {
             return calculatePercentBonus(this.item.bonus?.wSpeed);

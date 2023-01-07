@@ -20,6 +20,7 @@
                             <select class="select" name="set" id="set" v-on:change="filterBySet">
                                 <option value="">Select Set</option>
                                 <option value="2D">2D</option>
+                                <option value="BadlyDrawn">Badly Drawn</option>
                                 <option value="Beardverse">Beardverse</option>
                                 <option value="Cave">Cave</option>
                                 <option value="Clock">Clock</option>
@@ -31,6 +32,7 @@
                                 <option value="rerednaW">rerednaW</option>
                                 <option value="Sewers">Sewers</option>
                                 <option value="Spoopy">Spoopy</option>
+                                <option value="Stealth">Stealth</option>
                                 <option value="Training">Training</option>
                                 <option value="UUGRings">UUGs Rings</option>
                                 <option value="Wanderer">Wanderer</option>

@@ -202,7 +202,7 @@ export default {
             return calculatePercentBonus(this.item.bonus?.mPower);
         },
         threePower () {
-            return calculatePercentBonus(this.item.bonus?.respawn);
+            return calculatePercentBonus(this.item.bonus?.threePower);
         },
         eBars () {
             return calculatePercentBonus(this.item.bonus?.eBars);

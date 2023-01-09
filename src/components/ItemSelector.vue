@@ -29,9 +29,12 @@
                                 <option value="Forest">Forest</option>
                                 <option value="Gaudy">Gaudy</option>
                                 <option value="GRB">GRB</option>
+                                <option value="GreasyNerd">Greasy Nerd</option>
                                 <option value="Hearts">Hearts</option>
                                 <option value="HSB">HSB</option>
                                 <option value="Jake">Jake</option>
+                                <option value="Meta">Meta</option>
+                                <option value="Party">Party</option>
                                 <option value="PrettyPinkPrincess">Pretty Pink Princess</option>
                                 <option value="rerednaW">rerednaW</option>
                                 <option value="Sewers">Sewers</option>

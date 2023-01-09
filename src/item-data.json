@@ -2271,5 +2271,434 @@
             "nguSpeed": 340,
             "questDrops": 10
         }
+    },
+    {
+        "id": "241_SuperiorJapaneseKatana",
+        "name": "Superior Japanese Katana",
+        "set": "GreasyNerd",
+        "type": "weapon",
+        "bonus": {
+            "power": 22000000,
+            "maxHP": 66000000,
+            "toughness": 1200000,
+            "hpRegen": 36000,
+            "eCap": 1340,
+            "ePower": 13000,
+            "mBars": 12200,
+            "mCap": 1340,
+            "mPower": 13000
+        }
+    },
+    {
+        "id": "237_AWornOutFedora",
+        "name": "A Worn Out Fedora",
+        "set": "GreasyNerd",
+        "type": "head",
+        "bonus": {
+            "power": 160000,
+            "maxHP": 480000,
+            "toughness": 2200000,
+            "hpRegen": 66000,
+            "eBars": 14000,
+            "ePower": 11600,
+            "mCap": 1800,
+            "mPower": 11600
+        }
+    },
+    {
+        "id": "238_SweatStainedNguShirt",
+        "name": "Sweat-Stained NGU Shirt",
+        "set": "GreasyNerd",
+        "type": "chest",
+        "bonus": {
+            "power": 160000,
+            "maxHP": 480000,
+            "toughness": 2240000,
+            "hpRegen": 67200,
+            "eCap": 1400,
+            "ePower": 20000,
+            "mBars": 12200,
+            "mCap": 1400
+        }
+    },
+    {
+        "id": "239_NotSweatStainedUnderpants",
+        "name": "Not Sweat-Stained Underpants",
+        "set": "GreasyNerd",
+        "type": "legs",
+        "bonus": {
+            "power": 100000,
+            "maxHP": 300000,
+            "toughness": 2400000,
+            "hpRegen": 72000,
+            "eCap": 1800,
+            "ePower": 12200,
+            "mBars": 12400,
+            "mPower": 12200
+        }
+    },
+    {
+        "id": "240_NerdyShoes",
+        "name": "Nerdy Shoes",
+        "set": "GreasyNerd",
+        "type": "boots",
+        "bonus": {
+            "power": 160000,
+            "maxHP": 480000,
+            "toughness": 2400000,
+            "hpRegen": 72000,
+            "eBars": 12600,
+            "eCap": 1600,
+            "mBars": 12600,
+            "mCap": 1600,
+            "mPower": 16000
+        }
+    },
+    {
+        "id": "242_AnOrdinaryCalculator",
+        "name": "An Ordinary Calculator",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 500000,
+            "hpRegen": 15000,
+            "eBars": 12000,
+            "mBars": 12000,
+            "nguSpeed": 600,
+            "threePower": 10
+        }
+    },
+    {
+        "id": "243_AnimeFigurine",
+        "name": "Anime Figurine",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 500000,
+            "hpRegen": 15000,
+            "eBars": 12000,
+            "ePower": 16000,
+            "mCap": 1000,
+            "mPower": 16000
+        }
+    },
+    {
+        "id": "244_TheD20",
+        "name": "The D20",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 500000,
+            "hpRegen": 15000,
+            "eBars": 18000,
+            "eCap": 1600,
+            "ePower": 18000
+        }
+    },
+    {
+        "id": "245_TheD8",
+        "name": "The D8",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 600000,
+            "maxHP": 1800000,
+            "toughness": 500000,
+            "hpRegen": 15000,
+            "mBars": 18000,
+            "mCap": 1600,
+            "mPower": 18000
+        }
+    },
+    {
+        "id": "246_AnimeBodypillow",
+        "name": "Anime Bodypillow",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 1000000,
+            "maxHP": 3000000,
+            "toughness": 1000000,
+            "hpRegen": 30000,
+            "nguSpeed": 300,
+            "threePower": 20,
+            "respawn": 4
+        }
+    },
+    {
+        "id": "247_RedMeepleThingy",
+        "name": "Red Meeple Thingy",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 1000000,
+            "maxHP": 3000000,
+            "toughness": 1000000,
+            "hpRegen": 30000,
+            "aSpeed": 500,
+            "mPower": 24000,
+            "threePower": 20
+        }
+    },
+    {
+        "id": "248_ABagOfTrash",
+        "name": "A Bag of Trash",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 1000000,
+            "maxHP": 3000000,
+            "toughness": 1000000,
+            "hpRegen": 30000,
+            "dSpeed": 20,
+            "eCap": 2000,
+            "mCap": 2000,
+            "threeBars": 10
+        }
+    },
+    {
+        "id": "249_HeartShapedPanties",
+        "name": "Heart Shaped Panties",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 1333332,
+            "maxHP": 3999996,
+            "toughness": 1333332,
+            "hpRegen": 39999.96,
+            "eCap": 1333,
+            "mCap": 1333,
+            "nguSpeed": 666,
+            "threePower": 13.33
+        }
+    },
+    {
+        "id": "255_TheNumber7",
+        "name": "The Number 7",
+        "set": "Meta",
+        "type": "weapon",
+        "bonus": {
+            "power": 50000000,
+            "maxHP": 150000000,
+            "toughness": 2400000,
+            "hpRegen": 72000,
+            "mCap": 2000,
+            "mPower": 18000,
+            "threeBars": 20
+        }
+    },
+    {
+        "id": "251_NumericalHead",
+        "name": "Numerical Head",
+        "set": "Meta",
+        "type": "head",
+        "bonus": {
+            "power": 300000,
+            "maxHP": 900000,
+            "toughness": 4400000,
+            "hpRegen": 132000,
+            "eCap": 3000,
+            "ePower": 16600,
+            "mBars": 18000,
+            "mPower": 16600
+        }
+    },
+    {
+        "id": "252_NumericalChest",
+        "name": "Numerical Chest",
+        "set": "Meta",
+        "type": "chest",
+        "bonus": {
+            "power": 300000,
+            "maxHP": 900000,
+            "toughness": 4400000,
+            "hpRegen": 132000,
+            "eBars": 10000,
+            "mBars": 10000,
+            "mCap": 2200,
+            "mPower": 24000
+        }
+    },
+    {
+        "id": "253_NumericalLegs",
+        "name": "Numerical Legs",
+        "set": "Meta",
+        "type": "legs",
+        "bonus": {
+            "power": 300000,
+            "maxHP": 900000,
+            "toughness": 4400000,
+            "hpRegen": 132000,
+            "eBars": 17000,
+            "eCap": 1800,
+            "mCap": 1800,
+            "threePower": 22
+        }
+    },
+    {
+        "id": "254_NumericalBoots",
+        "name": "Numerical Boots",
+        "set": "Meta",
+        "type": "boots",
+        "bonus": {
+            "power": 300000,
+            "maxHP": 900000,
+            "toughness": 4400000,
+            "hpRegen": 132000,
+            "eCap": 2200,
+            "ePower": 20000,
+            "mBars": 18000,
+            "mPower": 20000
+        }
+    },
+    {
+        "id": "256_InfinityCharm",
+        "name": "Infinity Charm",
+        "set": "Meta",
+        "type": "accessory",
+        "bonus": {
+            "power": 1777776,
+            "maxHP": 5333328,
+            "toughness": 1777776,
+            "hpRegen": 53333.28,
+            "eCap": 1777.78,
+            "mCap": 1777.78,
+            "moveCooldown": 10,
+            "seedGain": 80
+        }
+    },
+    {
+        "id": "257_69Charm",
+        "name": "69 Charm",
+        "set": "Meta",
+        "type": "accessory",
+        "bonus": {
+            "power": 1393938,
+            "maxHP": 4181814,
+            "toughness": 1393938,
+            "hpRegen": 41818.14,
+            "threeCap": 2,
+            "wSpeed": 800,
+            "questDrops": 16
+        }
+    },
+    {
+        "id": "262_TheGodOfThunderSHammer",
+        "name": "The God of Thunder's Hammer",
+        "set": "Party",
+        "type": "weapon",
+        "bonus": {
+            "power": 100000000,
+            "maxHP": 300000000,
+            "toughness": 4000000,
+            "hpRegen": 120000,
+            "eBars": 20000,
+            "eCap": 2600,
+            "ePower": 22000,
+            "mPower": 22000
+        }
+    },
+    {
+        "id": "258_PartyHat",
+        "name": "Party Hat",
+        "set": "Party",
+        "type": "head",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 9000000,
+            "hpRegen": 270000,
+            "eBars": 16000,
+            "mBars": 16000,
+            "mCap": 3000,
+            "mPower": 32000
+        }
+    },
+    {
+        "id": "259_PogmailChest",
+        "name": "Pogmail Chest",
+        "set": "Party",
+        "type": "chest",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 9000000,
+            "hpRegen": 270000,
+            "eCap": 3200,
+            "ePower": 26000,
+            "mBars": 20000,
+            "mPower": 26000
+        }
+    },
+    {
+        "id": "260_TearAwayPants",
+        "name": "Tear Away Pants",
+        "set": "Party",
+        "type": "legs",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 9000000,
+            "hpRegen": 270000,
+            "ePower": 24000,
+            "mBars": 24000,
+            "mCap": 2400,
+            "mPower": 24000
+        }
+    },
+    {
+        "id": "261_PizzaBoots",
+        "name": "Pizza Boots",
+        "set": "Party",
+        "type": "boots",
+        "bonus": {
+            "power": 500000,
+            "maxHP": 1500000,
+            "toughness": 9000000,
+            "hpRegen": 270000,
+            "eBars": 20000,
+            "eCap": 2400,
+            "ePower": 20000,
+            "mCap": 2400
+        }
+    },
+    {
+        "id": "263_PlasticRedCup",
+        "name": "Plastic Red Cup",
+        "set": "Party",
+        "type": "accessory",
+        "bonus": {
+            "power": 3000000,
+            "maxHP": 9000000,
+            "toughness": 2000000,
+            "hpRegen": 60000,
+            "eBars": 24000,
+            "eCap": 2400,
+            "goldDrops": 16000,
+            "mBars": 24000,
+            "mCap": 2400
+        }
+    },
+    {
+        "id": "264_PartyWhistle",
+        "name": "Party Whistle",
+        "set": "Party",
+        "type": "accessory",
+        "bonus": {
+            "power": 4000000,
+            "maxHP": 12000000,
+            "toughness": 4000000,
+            "hpRegen": 120000,
+            "ePower": 20000,
+            "mPower": 20000,
+            "nguSpeed": 400,
+            "yggdrasilYield": 10
+        }
     }
 ]

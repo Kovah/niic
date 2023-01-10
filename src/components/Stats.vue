@@ -99,12 +99,12 @@
             <td :class="'bonus ' + bonusClass('nguSpeed')">{{ nguSpeed }}</td>
         </tr>
         <tr>
-            <td>Windoows Speed</td>
+            <td>Wandoos Speed</td>
             <td :class="'bonus ' + bonusClass('wSpeed')">{{ wSpeed }}</td>
         </tr>
         <tr>
             <td>Daycare Speed</td>
-            <td :class="'bonus ' + bonusClass('daycareSpeed')">{{ daycareSpeed }}</td>
+            <td :class="'bonus ' + bonusClass('daycareSpeed')">{{ dSpeed }}</td>
         </tr>
         <tr>
             <td>Quest Drops</td>

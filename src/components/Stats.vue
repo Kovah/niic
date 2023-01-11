@@ -71,22 +71,6 @@
         </tr>
         <tr class="divider"></tr>
         <tr>
-            <td>Drop Chance</td>
-            <td :class="'bonus ' + bonusClass('dropChance')">{{ dropChance }}</td>
-        </tr>
-        <tr>
-            <td>Gold Drops</td>
-            <td :class="'bonus ' + bonusClass('goldDrops')">{{ goldDrops }}</td>
-        </tr>
-        <tr>
-            <td>Seed Gain</td>
-            <td :class="'bonus ' + bonusClass('seedGain')">{{ seedGain }}</td>
-        </tr>
-        <tr>
-            <td>Respawn</td>
-            <td :class="'bonus ' + bonusClass('respawn')">{{ respawn }}</td>
-        </tr>
-        <tr>
             <td>Augment Speed</td>
             <td :class="'bonus ' + bonusClass('aSpeed')">{{ aSpeed }}</td>
         </tr>
@@ -106,13 +90,30 @@
             <td>Daycare Speed</td>
             <td :class="'bonus ' + bonusClass('daycareSpeed')">{{ dSpeed }}</td>
         </tr>
+        <tr class="divider"></tr>
+        <tr>
+            <td>Drop Chance</td>
+            <td :class="'bonus ' + bonusClass('dropChance')">{{ dropChance }}</td>
+        </tr>
+        <tr>
+            <td>Gold Drops</td>
+            <td :class="'bonus ' + bonusClass('goldDrops')">{{ goldDrops }}</td>
+        </tr>
+        <tr>
+            <td>Move Cooldown</td>
+            <td :class="'bonus ' + bonusClass('moveCooldown')">{{ moveCooldown }}</td>
+        </tr>
         <tr>
             <td>Quest Drops</td>
             <td :class="'bonus ' + bonusClass('questDrops')">{{ questDrops }}</td>
         </tr>
         <tr>
-            <td>Move Cooldown</td>
-            <td :class="'bonus ' + bonusClass('moveCooldown')">{{ moveCooldown }}</td>
+            <td>Respawn</td>
+            <td :class="'bonus ' + bonusClass('respawn')">{{ respawn }}</td>
+        </tr>
+        <tr>
+            <td>Seed Gain</td>
+            <td :class="'bonus ' + bonusClass('seedGain')">{{ seedGain }}</td>
         </tr>
         <tr>
             <td>Yggdrasil Yield</td>

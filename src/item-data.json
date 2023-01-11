@@ -2700,5 +2700,494 @@
             "nguSpeed": 400,
             "yggdrasilYield": 10
         }
+    },
+    {
+        "id": "265_MobsterHat",
+        "name": "Mobster Hat",
+        "set": "Mobster",
+        "type": "head",
+        "bonus": {
+            "power": 800000,
+            "maxHP": 2400000,
+            "toughness": 20000000,
+            "hpRegen": 600000,
+            "eCap": 3200,
+            "ePower": 34000,
+            "mCap": 3200,
+            "threeCap": 2.8
+        }
+    },
+    {
+        "id": "266_MobsterVest",
+        "name": "Mobster Vest",
+        "set": "Mobster",
+        "type": "chest",
+        "bonus": {
+            "power": 800000,
+            "maxHP": 2400000,
+            "toughness": 20000000,
+            "hpRegen": 600000,
+            "eCap": 3200,
+            "mCap": 3200,
+            "mPower": 36000,
+            "threeCap": 3.2
+        }
+    },
+    {
+        "id": "267_MobsterPants",
+        "name": "Mobster Pants",
+        "set": "Mobster",
+        "type": "legs",
+        "bonus": {
+            "power": 800000,
+            "maxHP": 2400000,
+            "toughness": 20000000,
+            "hpRegen": 600000,
+            "eBars": 34000,
+            "eCap": 2800,
+            "ePower": 26000,
+            "mBars": 34000,
+            "mPower": 26000
+        }
+    },
+    {
+        "id": "268_CementBoots",
+        "name": "Cement Boots",
+        "set": "Mobster",
+        "type": "boots",
+        "bonus": {
+            "power": 800000,
+            "maxHP": 2400000,
+            "toughness": 20000000,
+            "hpRegen": 600000,
+            "eCap": 2600,
+            "ePower": 28000,
+            "mPower": 28000,
+            "threeBars": 28
+        }
+    },
+    {
+        "id": "269_TommyGun",
+        "name": "Tommy Gun",
+        "set": "Mobster",
+        "type": "weapon",
+        "bonus": {
+            "power": 200000000,
+            "maxHP": 600000000,
+            "toughness": 8000000,
+            "hpRegen": 240000,
+            "eBars": 28000,
+            "ePower": 26000,
+            "mBars": 28000,
+            "mCap": 3600,
+            "mPower": 26000
+        }
+    },
+    {
+        "id": "270_AGarrote",
+        "name": "A Garrote",
+        "set": "Mobster",
+        "type": "accessory",
+        "bonus": {
+            "power": 8000000,
+            "maxHP": 24000000,
+            "toughness": 8000000,
+            "hpRegen": 240000,
+            "dSpeed": 20,
+            "dropChance": 600,
+            "ePower": 28000,
+            "mPower": 28000
+        }
+    },
+    {
+        "id": "271_BrassKnuckles",
+        "name": "Brass Knuckles",
+        "set": "Mobster",
+        "type": "accessory",
+        "bonus": {
+            "power": 7000000,
+            "maxHP": 21000000,
+            "toughness": 7000000,
+            "hpRegen": 210000,
+            "eCap": 1800,
+            "goldDrops": 24000,
+            "mCap": 1800,
+            "threePower": 24
+        }
+    },
+    {
+        "id": "272_ViolinCase",
+        "name": "Violin Case",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 14000000,
+            "maxHP": 42000000,
+            "toughness": 14000000,
+            "hpRegen": 420000,
+            "eBars": 26000,
+            "eCap": 2600,
+            "mBars": 26000,
+            "mCap": 2600,
+            "threePower": 26
+        }
+    },
+    {
+        "id": "273_MolotovCocktail",
+        "name": "Molotov Cocktail",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 20000000,
+            "maxHP": 60000000,
+            "toughness": 20000000,
+            "hpRegen": 600000,
+            "nguSpeed": 400,
+            "seedGain": 100,
+            "wSpeed": 1600
+        }
+    },
+    {
+        "id": "274_TheGodmotherSRing",
+        "name": "The Godmother's Ring",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 30000000,
+            "maxHP": 90000000,
+            "toughness": 30000000,
+            "hpRegen": 900000,
+            "dropChance": 1400,
+            "goldDrops": 60000,
+            "threeCap": 11
+        }
+    },
+    {
+        "id": "275_TheGodmotherSWand",
+        "name": "The Godmother's Wand",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 44000000,
+            "maxHP": 132000000,
+            "toughness": 44000000,
+            "hpRegen": 1320000,
+            "eCap": 12000,
+            "ePower": 120000,
+            "mCap": 12000,
+            "mPower": 120000,
+            "yggdrasilYield": 15
+        }
+    },
+    {
+        "id": "276_LeftFairyWing",
+        "name": "Left Fairy Wing",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 120000000,
+            "maxHP": 360000000,
+            "toughness": 120000000,
+            "hpRegen": 3600000,
+            "eCap": 16000,
+            "threeCap": 16,
+            "threePower": 160
+        }
+    },
+    {
+        "id": "277_RightFairyWing",
+        "name": "Right Fairy Wing",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "eBars": 180000,
+            "ePower": 180000,
+            "mBars": 180000,
+            "mCap": 18000,
+            "mPower": 180000
+        }
+    },
+    {
+        "id": "293_MyOrangeHeart",
+        "name": "My Orange Heart",
+        "set": "Hearts",
+        "type": "accessory",
+        "bonus": {
+            "power": 200,
+            "maxHP": 600,
+            "toughness": 2000,
+            "hpRegen": 60,
+            "goldDrops": 600,
+            "questDrops": 10
+        }
+    },
+    {
+        "id": "295_AscendedX6Pendant",
+        "name": "Ascended x6 Pendant",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 40000000,
+            "maxHP": 120000000,
+            "toughness": 40000000,
+            "hpRegen": 1200000,
+            "threeCap": 100,
+            "threeBars": 200,
+            "threePower": 200
+        }
+    },
+    {
+        "id": "296_GalacticHeraldLooty",
+        "name": "GALACTIC HERALD LOOTY",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 60000000,
+            "maxHP": 180000000,
+            "toughness": 60000000,
+            "hpRegen": 1800000,
+            "dropChance": 1200,
+            "ePower": 50000,
+            "mPower": 50000,
+            "threeCap": 40
+        }
+    },
+    {
+        "id": "297_MyGreyHeart",
+        "name": "My Grey Heart",
+        "set": "Hearts",
+        "type": "accessory",
+        "bonus": {
+            "power": 2000000,
+            "maxHP": 6000000,
+            "toughness": 2000000,
+            "hpRegen": 60000,
+            "threeCap": 40,
+            "threeBars": 40
+        }
+    },
+    {
+        "id": "301_Hamlet",
+        "name": "Hamlet",
+        "set": "Typo",
+        "type": "head",
+        "bonus": {
+            "power": 1200000,
+            "maxHP": 3600000,
+            "toughness": 30000000,
+            "hpRegen": 900000,
+            "eBars": 62000,
+            "mBars": 62000,
+            "threeBars": 60,
+            "threePower": 56
+        }
+    },
+    {
+        "id": "302_ChessPlate",
+        "name": "Chess Plate",
+        "set": "Typo",
+        "type": "chest",
+        "bonus": {
+            "power": 1200000,
+            "maxHP": 3600000,
+            "toughness": 32000000,
+            "hpRegen": 960000,
+            "ePower": 58000,
+            "mPower": 58000,
+            "threeCap": 5.4,
+            "threeBars": 80
+        }
+    },
+    {
+        "id": "303_Logs",
+        "name": "Logs",
+        "set": "Typo",
+        "type": "legs",
+        "bonus": {
+            "power": 1200000,
+            "maxHP": 3600000,
+            "toughness": 31000000,
+            "hpRegen": 930000,
+            "eCap": 7000,
+            "mCap": 7000,
+            "threeCap": 6.4,
+            "threePower": 56
+        }
+    },
+    {
+        "id": "304_Booms",
+        "name": "Booms",
+        "set": "Typo",
+        "type": "boots",
+        "bonus": {
+            "power": 1200000,
+            "maxHP": 3600000,
+            "toughness": 30000000,
+            "hpRegen": 900000,
+            "ePower": 70000,
+            "mPower": 70000,
+            "threeCap": 6.2,
+            "threePower": 60
+        }
+    },
+    {
+        "id": "305_WeePin",
+        "name": "Wee pin",
+        "set": "Typo",
+        "type": "weapon",
+        "bonus": {
+            "power": 320000000,
+            "maxHP": 960000000,
+            "toughness": 12000000,
+            "hpRegen": 360000,
+            "eBars": 68000,
+            "ePower": 50000,
+            "mBars": 68000,
+            "mPower": 50000,
+            "threeCap": 7
+        }
+    },
+    {
+        "id": "306_TheAssCessory",
+        "name": "The Ass-cessory",
+        "set": "Typo",
+        "type": "accessory",
+        "bonus": {
+            "power": 24000000,
+            "maxHP": 72000000,
+            "toughness": 24000000,
+            "hpRegen": 720000,
+            "eCap": 6600,
+            "ePower": 66000,
+            "mCap": 6600,
+            "mPower": 66000,
+            "yggdrasilYield": 10
+        }
+    },
+    {
+        "id": "307_EyeOfElxu",
+        "name": "Eye of ELXU",
+        "set": "Typo",
+        "type": "accessory",
+        "bonus": {
+            "power": 13333332,
+            "maxHP": 39999996,
+            "toughness": 13333332,
+            "hpRegen": 399999,
+            "threeCap": 6.4,
+            "threeBars": 58,
+            "threePower": 70
+        }
+    },
+    {
+        "id": "308_SpinningTophat",
+        "name": "Spinning Tophat",
+        "set": "Fad",
+        "type": "head",
+        "bonus": {
+            "power": 1800000,
+            "maxHP": 5400000,
+            "toughness": 44000000,
+            "hpRegen": 1320000,
+            "ePower": 122000,
+            "mPower": 122000,
+            "threeCap": 12.6,
+            "threePower": 124
+        }
+    },
+    {
+        "id": "309_DemonicFlurbieChestplate",
+        "name": "Demonic Flurbie Chestplate",
+        "set": "Fad",
+        "type": "chest",
+        "bonus": {
+            "power": 1800000,
+            "maxHP": 5400000,
+            "toughness": 48000000,
+            "hpRegen": 1440000,
+            "eBars": 80000,
+            "eCap": 13200,
+            "mBars": 80000,
+            "mCap": 13200,
+            "threeCap": 14
+        }
+    },
+    {
+        "id": "310_AaaBatteryLegs",
+        "name": "AAA Battery Legs",
+        "set": "Fad",
+        "type": "legs",
+        "bonus": {
+            "power": 1800000,
+            "maxHP": 5400000,
+            "toughness": 46000000,
+            "hpRegen": 1380000,
+            "ePower": 114000,
+            "mPower": 114000,
+            "threeCap": 12.6,
+            "threePower": 124
+        }
+    },
+    {
+        "id": "311_SlinkyBoots",
+        "name": "Slinky Boots",
+        "set": "Fad",
+        "type": "boots",
+        "bonus": {
+            "power": 1800000,
+            "maxHP": 5400000,
+            "toughness": 42000000,
+            "hpRegen": 1260000,
+            "eBars": 100000,
+            "mBars": 100000,
+            "threeBars": 124,
+            "threePower": 138
+        }
+    },
+    {
+        "id": "312_TheMalfSlammer",
+        "name": "THE MALF SLAMMER",
+        "set": "Fad",
+        "type": "weapon",
+        "bonus": {
+            "power": 500000000,
+            "maxHP": 1500000000,
+            "toughness": 20000000,
+            "hpRegen": 600000,
+            "ePower": 124000,
+            "mPower": 124000,
+            "threeCap": 14,
+            "threePower": 128
+        }
+    },
+    {
+        "id": "313_RareFoilPokeymanCard",
+        "name": "Rare Foil Pokeyman Card",
+        "set": "Fad",
+        "type": "accessory",
+        "bonus": {
+            "power": 38000000,
+            "maxHP": 114000000,
+            "toughness": 38000000,
+            "hpRegen": 1140000,
+            "dropChance": 800,
+            "goldDrops": 100000,
+            "threeCap": 24
+        }
+    },
+    {
+        "id": "314_AHandfulOfKrazyBonez",
+        "name": "A handful of Krazy Bonez",
+        "set": "Fad",
+        "type": "accessory",
+        "bonus": {
+            "power": 40000000,
+            "maxHP": 120000000,
+            "toughness": 40000000,
+            "hpRegen": 1200000,
+            "threeCap": 14,
+            "threePower": 120,
+            "questDrops": 14
+        }
     }
 ]

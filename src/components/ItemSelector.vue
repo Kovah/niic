@@ -26,6 +26,7 @@
                                 <option value="Choco">Choco</option>
                                 <option value="Clock">Clock</option>
                                 <option value="Edgy">Edgy</option>
+                                <option value="Fad">Fad</option>
                                 <option value="Forest">Forest</option>
                                 <option value="Gaudy">Gaudy</option>
                                 <option value="GRB">GRB</option>
@@ -34,6 +35,7 @@
                                 <option value="HSB">HSB</option>
                                 <option value="Jake">Jake</option>
                                 <option value="Meta">Meta</option>
+                                <option value="Mobster">Mobster</option>
                                 <option value="Party">Party</option>
                                 <option value="PrettyPinkPrincess">Pretty Pink Princess</option>
                                 <option value="rerednaW">rerednaW</option>
@@ -41,15 +43,16 @@
                                 <option value="Spoopy">Spoopy</option>
                                 <option value="Stealth">Stealth</option>
                                 <option value="Training">Training</option>
+                                <option value="Typo">Typo</option>
                                 <option value="UUGRings">UUGs Rings</option>
                                 <option value="Wanderer">Wanderer</option>
                             </select>
                         </div>
                     </div>
 
-
                     <div class="flex flex-wrap">
-                        <div class="w-12 h-12 border-2 border-gray-700 text-xs break-words overflow-hidden cursor-pointer"
+                        <div
+                            class="w-12 h-12 border-2 border-gray-700 text-xs break-words overflow-hidden cursor-pointer"
                             v-for="item in itemList" v-on:click="applyItem(item)">
                             <img :src="'/items/' + item.id + '.png'" :alt="item.name" loading="lazy">
                         </div>

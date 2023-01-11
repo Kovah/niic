@@ -1,10 +1,13 @@
 <template>
     <div v-if="store.itemSelector.isOpen" class="absolute z-30 left-0 top-0 right-0 bottom-0">
-        <div class="container max-h-full mx-auto py-5 overflow-y-auto">
-            <div class="relative z-40 bg-gray-900 rounded-xl border border-gray-900 w-full max-w-xl mx-auto shadow-xl">
+        <div class="max-h-full mx-auto py-8 overflow-y-auto">
+            <div class="relative z-40 w-full max-w-3xl bg-gray-800 rounded-xl border border-gray-900 mx-auto shadow-xl">
                 <div class="rounded-xl border border-gray-700 p-4">
 
-                    <h2 class="h2 mb-4">Item Select</h2>
+                    <div class="mb-4 flex items-center justify-between">
+                        <h2 class="h2">Item Select</h2>
+                        <button class="btn" v-on:click="closeSelector">Close</button>
+                    </div>
 
                     <div class="text-xs text-gray-400 mb-1">Filter Items</div>
                     <div class="flex mb-4">
@@ -16,7 +19,7 @@
                             <button class="btn" v-on:click="toggleFilter('weapon', $event)">Weapon</button>
                             <button class="btn" v-on:click="toggleFilter('accessory', $event)">Accessory</button>
                         </div>
-                        <div>
+                        <div class="ml-auto">
                             <select class="select" name="set" id="set" v-on:change="filterBySet">
                                 <option value="">Select Set</option>
                                 <option value="2D">2D</option>
@@ -50,15 +53,11 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-wrap">
-                        <div
-                            class="w-12 h-12 border-2 border-gray-700 text-xs break-words overflow-hidden cursor-pointer"
-                            v-for="item in itemList" v-on:click="applyItem(item)">
+                    <div class="item-grid">
+                        <div class="single-item" v-for="item in itemList" v-on:click="applyItem(item)">
                             <img :src="'/items/' + item.id + '.png'" :alt="item.name" loading="lazy">
                         </div>
                     </div>
-
-                    <button class="btn mt-4" v-on:click="closeSelector">Cancel</button>
 
                 </div>
             </div>

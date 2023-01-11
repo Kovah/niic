@@ -64,7 +64,8 @@
     }
 
     .select {
-        @apply inline-block z-20 py-1 px-3 text-sm tracking-wide text-gray-200 hover:text-white bg-gray-800 rounded border border-gray-900 outline-2 outline-gray-700 transition;
+        @apply inline-block z-20 py-1 pl-3 pr-5 text-sm tracking-wide text-gray-200 hover:text-white bg-gray-800 rounded border border-gray-700 outline-2 outline-gray-700 transition;
+        box-shadow: 0 0 0 1px theme('colors.gray.900');
     }
 
     .stats-table td {
@@ -82,5 +83,13 @@
 
     .stats-table .divider {
         @apply h-3;
+    }
+
+    .item-grid {
+        @apply flex flex-wrap gap-0.5;
+    }
+
+    .single-item {
+        @apply h-[50px] w-[50px] text-xs break-words overflow-hidden cursor-pointer;
     }
 }

@@ -622,7 +622,7 @@
             "hpRegen": 36,
             "eBars": 60,
             "ePower": 190,
-            "wSpeed": 20
+            "wandoosSpeed": 20
         }
     },
     {
@@ -688,7 +688,7 @@
         "type": "accessory",
         "bonus": {
             "advancedTraining": 80,
-            "wSpeed": 60
+            "wandoosSpeed": 60
         }
     },
     {
@@ -1154,7 +1154,7 @@
             "hpRegen": 60,
             "advancedTraining": 100,
             "nguSpeed": 100,
-            "wSpeed": 100
+            "wandoosSpeed": 100
         }
     },
     {
@@ -1212,7 +1212,7 @@
             "maxHP": 498000,
             "toughness": 12000,
             "hpRegen": 360,
-            "bSpeed": 20,
+            "beardSpeed": 20,
             "eBars": 440,
             "mBars": 440
         }
@@ -1286,7 +1286,7 @@
             "maxHP": 48000,
             "toughness": 16000,
             "hpRegen": 480,
-            "bSpeed": 20,
+            "beardSpeed": 20,
             "ePower": 900,
             "mPower": 700
         }
@@ -1301,7 +1301,7 @@
             "maxHP": 7200,
             "toughness": 24000,
             "hpRegen": 720,
-            "bSpeed": 20,
+            "beardSpeed": 20,
             "nguSpeed": 200,
             "seedGain": 30
         }
@@ -1362,7 +1362,7 @@
             "toughness": 48000,
             "hpRegen": 1440,
             "nguSpeed": 120,
-            "wSpeed": 260
+            "wandoosSpeed": 260
         }
     },
     {
@@ -1432,7 +1432,7 @@
             "maxHP": 6000,
             "toughness": 48000,
             "hpRegen": 1440,
-            "bSpeed": 80,
+            "beardSpeed": 80,
             "seedGain": 60
         }
     },
@@ -1484,7 +1484,7 @@
             "eBars": 1000,
             "mBars": 1000,
             "nguSpeed": 300,
-            "wSpeed": 240
+            "wandoosSpeed": 240
         }
     },
     {
@@ -1512,7 +1512,7 @@
             "maxHP": 3000000,
             "toughness": 50000,
             "hpRegen": 1500,
-            "aSpeed": 240,
+            "augmentSpeed": 240,
             "eCap": 120,
             "ePower": 1200,
             "mCap": 120,
@@ -1618,7 +1618,7 @@
             "maxHP": 600,
             "toughness": 200,
             "hpRegen": 6,
-            "bSpeed": 60,
+            "beardSpeed": 60,
             "dropChance": 100,
             "respawn": 8
         }
@@ -1810,7 +1810,7 @@
             "hpRegen": 1999.98,
             "eCap": 300,
             "mCap": 300,
-            "wSpeed": 400
+            "wandoosSpeed": 400
         }
     },
     {
@@ -1823,7 +1823,7 @@
             "maxHP": 399996,
             "toughness": 133332,
             "hpRegen": 3999.96,
-            "bSpeed": 400,
+            "beardSpeed": 400,
             "nguSpeed": 400
         }
     },
@@ -1913,7 +1913,7 @@
             "maxHP": 600,
             "toughness": 2000,
             "hpRegen": 60,
-            "bSpeed": 80,
+            "beardSpeed": 80,
             "dropChance": 80
         }
     },
@@ -2267,7 +2267,7 @@
             "maxHP": 2400000,
             "toughness": 800000,
             "hpRegen": 24000,
-            "dSpeed": 20,
+            "daycareSpeed": 20,
             "nguSpeed": 340,
             "questDrops": 10
         }
@@ -2441,7 +2441,7 @@
             "maxHP": 3000000,
             "toughness": 1000000,
             "hpRegen": 30000,
-            "aSpeed": 500,
+            "augmentSpeed": 500,
             "mPower": 24000,
             "threePower": 20
         }
@@ -2456,7 +2456,7 @@
             "maxHP": 3000000,
             "toughness": 1000000,
             "hpRegen": 30000,
-            "dSpeed": 20,
+            "daycareSpeed": 20,
             "eCap": 2000,
             "mCap": 2000,
             "threeBars": 10
@@ -2584,7 +2584,7 @@
             "toughness": 1393938,
             "hpRegen": 41818.14,
             "threeCap": 2,
-            "wSpeed": 800,
+            "wandoosSpeed": 800,
             "questDrops": 16
         }
     },
@@ -2793,7 +2793,7 @@
             "maxHP": 24000000,
             "toughness": 8000000,
             "hpRegen": 240000,
-            "dSpeed": 20,
+            "daycareSpeed": 20,
             "dropChance": 600,
             "ePower": 28000,
             "mPower": 28000
@@ -2844,7 +2844,7 @@
             "hpRegen": 600000,
             "nguSpeed": 400,
             "seedGain": 100,
-            "wSpeed": 1600
+            "wandoosSpeed": 1600
         }
     },
     {

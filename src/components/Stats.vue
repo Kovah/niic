@@ -72,11 +72,19 @@
         <tr class="divider"></tr>
         <tr>
             <td>Augment Speed</td>
-            <td :class="'bonus ' + bonusClass('aSpeed')">{{ aSpeed }}</td>
+            <td :class="'bonus ' + bonusClass('augmentSpeed')">{{ augmentSpeed }}</td>
         </tr>
         <tr>
             <td>Beard Speed</td>
-            <td :class="'bonus ' + bonusClass('bSpeed')">{{ bSpeed }}</td>
+            <td :class="'bonus ' + bonusClass('beardSpeed')">{{ beardSpeed }}</td>
+        </tr>
+        <tr>
+            <td>Daycare Speed</td>
+            <td :class="'bonus ' + bonusClass('daycareSpeed')">{{ daycareSpeed }}</td>
+        </tr>
+        <tr>
+            <td>Hack Speed</td>
+            <td :class="'bonus ' + bonusClass('hackSpeed')">{{ hackSpeed }}</td>
         </tr>
         <tr>
             <td>NGU Speed</td>
@@ -84,11 +92,11 @@
         </tr>
         <tr>
             <td>Wandoos Speed</td>
-            <td :class="'bonus ' + bonusClass('wSpeed')">{{ wSpeed }}</td>
+            <td :class="'bonus ' + bonusClass('wandoosSpeed')">{{ wandoosSpeed }}</td>
         </tr>
         <tr>
-            <td>Daycare Speed</td>
-            <td :class="'bonus ' + bonusClass('daycareSpeed')">{{ dSpeed }}</td>
+            <td>Wish Speed</td>
+            <td :class="'bonus ' + bonusClass('wishSpeed')">{{ wishSpeed }}</td>
         </tr>
         <tr class="divider"></tr>
         <tr>
@@ -172,6 +180,7 @@ export default {
         }
     },
     computed: {
+        // Player stats
         power () {
             return calculateBonus(this.item.bonus?.power);
         },
@@ -184,18 +193,7 @@ export default {
         hpRegen () {
             return calculateBonus(this.item.bonus?.hpRegen);
         },
-        dropChance () {
-            return calculatePercentBonus(this.item.bonus?.dropChance);
-        },
-        goldDrops () {
-            return calculatePercentBonus(this.item.bonus?.goldDrops);
-        },
-        seedGain () {
-            return calculatePercentBonus(this.item.bonus?.seedGain);
-        },
-        respawn () {
-            return calculatePercentBonus(this.item.bonus?.respawn);
-        },
+        // Resources
         ePower () {
             return calculatePercentBonus(this.item.bonus?.ePower);
         },
@@ -232,30 +230,51 @@ export default {
         threeSpeed () {
             return calculatePercentBonus(this.item.bonus?.threeSpeed);
         },
-        aSpeed () {
-            return calculatePercentBonus(this.item.bonus?.aSpeed);
+        // Speed modifiers
+        augmentSpeed () {
+            return calculatePercentBonus(this.item.bonus?.augmentSpeed);
         },
-        bSpeed () {
-            return calculatePercentBonus(this.item.bonus?.bSpeed);
+        beardSpeed () {
+            return calculatePercentBonus(this.item.bonus?.beardSpeed);
         },
-        dSpeed () {
-            return calculatePercentBonus(this.item.bonus?.dSpeed);
+        daycareSpeed () {
+            return calculatePercentBonus(this.item.bonus?.daycareSpeed);
+        },
+        hackSpeed () {
+            return calculatePercentBonus(this.item.bonus?.hackSpeed);
         },
         nguSpeed () {
             return calculatePercentBonus(this.item.bonus?.nguSpeed);
         },
-        wSpeed () {
-            return calculatePercentBonus(this.item.bonus?.wSpeed);
+        wandoosSpeed () {
+            return calculatePercentBonus(this.item.bonus?.wandoosSpeed);
         },
-        questDrops () {
-            return calculatePercentBonus(this.item.bonus?.questDrops);
+        wishSpeed () {
+            return calculatePercentBonus(this.item.bonus?.wishSpeed);
+        },
+        // Other stats
+        dropChance () {
+            return calculatePercentBonus(this.item.bonus?.dropChance);
+        },
+        goldDrops () {
+            return calculatePercentBonus(this.item.bonus?.goldDrops);
+        },
+        respawn () {
+            return calculatePercentBonus(this.item.bonus?.respawn);
+        },
+        seedGain () {
+            return calculatePercentBonus(this.item.bonus?.seedGain);
         },
         moveCooldown () {
             return calculatePercentBonus(this.item.bonus?.moveCooldown);
         },
+        questDrops () {
+            return calculatePercentBonus(this.item.bonus?.questDrops);
+        },
         yggdrasilYield () {
             return calculatePercentBonus(this.item.bonus?.yggdrasilYield);
         },
+        //
         attack () {
             return calculateBonus(this.item.bonus?.attack);
         },

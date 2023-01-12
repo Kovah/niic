@@ -29,6 +29,7 @@
                                 <option value="Choco">Choco</option>
                                 <option value="Clock">Clock</option>
                                 <option value="Edgy">Edgy</option>
+                                <option value="Exile">Exile</option>
                                 <option value="Fad">Fad</option>
                                 <option value="Forest">Forest</option>
                                 <option value="Gaudy">Gaudy</option>
@@ -37,6 +38,7 @@
                                 <option value="Hearts">Hearts</option>
                                 <option value="HSB">HSB</option>
                                 <option value="Jake">Jake</option>
+                                <option value="JRPG">JRPG</option>
                                 <option value="Meta">Meta</option>
                                 <option value="Mobster">Mobster</option>
                                 <option value="Party">Party</option>

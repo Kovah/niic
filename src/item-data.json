@@ -2161,7 +2161,7 @@
     {
         "id": "230_EmperorLooty",
         "name": "Emperor Looty",
-        "set": "",
+        "set": null,
         "type": "accessory",
         "bonus": {
             "power": 600000,
@@ -3188,6 +3188,322 @@
             "threeCap": 14,
             "threePower": 120,
             "questDrops": 14
+        }
+    },
+    {
+        "id": "315_BusterSwordTop",
+        "name": "Buster Sword Top",
+        "set": "JRPG",
+        "type": "head",
+        "bonus": {
+            "power": 2800000,
+            "maxHP": 8400000,
+            "toughness": 76000000,
+            "hpRegen": 2280000,
+            "ePower": 170000,
+            "mPower": 170000,
+            "threeCap": 16.6,
+            "threePower": 180
+        }
+    },
+    {
+        "id": "316_BusterSwordUpper",
+        "name": "Buster Sword Upper",
+        "set": "JRPG",
+        "type": "chest",
+        "bonus": {
+            "power": 3000000,
+            "maxHP": 9000000,
+            "toughness": 74000000,
+            "hpRegen": 2220000,
+            "threeCap": 18.4,
+            "threeBars": 180,
+            "threePower": 176
+        }
+    },
+    {
+        "id": "317_BusterSwordLower",
+        "name": "Buster Sword Lower",
+        "set": "JRPG",
+        "type": "legs",
+        "bonus": {
+            "power": 3000000,
+            "maxHP": 9000000,
+            "toughness": 578000000,
+            "hpRegen": 2340000,
+            "eBars": 174000,
+            "mBars": 174000,
+            "threeCap": 17.8,
+            "threePower": 188
+        }
+    },
+    {
+        "id": "318_BusterSwordBottom",
+        "name": "Buster Sword Bottom",
+        "set": "JRPG",
+        "type": "boots",
+        "bonus": {
+            "power": 3000000,
+            "maxHP": 9000000,
+            "toughness": 76000000,
+            "hpRegen": 2280000,
+            "eCap": 18800,
+            "ePower": 178000,
+            "mCap": 18800,
+            "mPower": 178000,
+            "threePower": 182
+        }
+    },
+    {
+        "id": "319_GiftShopBusterSwordReplica",
+        "name": "Gift Shop Buster Sword Replica",
+        "set": "JRPG",
+        "type": "weapon",
+        "bonus": {
+            "power": 800000000,
+            "maxHP": 24000000000,
+            "toughness": 32000000,
+            "hpRegen": 960000,
+            "eBars": 174000,
+            "mBars": 174000,
+            "threeBars": 182,
+            "threePower": 200
+        }
+    },
+    {
+        "id": "320_AGiganticZipper",
+        "name": "A Gigantic Zipper",
+        "set": "JRPG",
+        "type": "accessory",
+        "bonus": {
+            "power": 42000000,
+            "maxHP": 126000000,
+            "toughness": 46000000,
+            "hpRegen": 1380000,
+            "ePower": 176000,
+            "mPower": 176000,
+            "threeBars": 194,
+            "threePower": 200
+        }
+    },
+    {
+        "id": "321_AnimeHeroWig",
+        "name": "Anime Hero Wig",
+        "set": "JRPG",
+        "type": "accessory",
+        "bonus": {
+            "power": 60000000,
+            "maxHP": 180000000,
+            "toughness": 60000000,
+            "hpRegen": 1800000,
+            "ePower": 192000,
+            "mPower": 192000,
+            "threeCap": 17.6,
+            "yggdrasilYield": 8
+        }
+    },
+    {
+        "id": "322_HatOfGreed",
+        "name": "Hat of Greed",
+        "set": "Exile",
+        "type": "head",
+        "bonus": {
+            "power": 4400000,
+            "maxHP": 13200000,
+            "toughness": 118000000,
+            "hpRegen": 3540000,
+            "ePower": 240000,
+            "mPower": 240000,
+            "threeCap": 26,
+            "threeBars": 220
+        }
+    },
+    {
+        "id": "323_BlueEyesWhiteChestplate",
+        "name": "Blue Eyes White Chestplate",
+        "set": "Exile",
+        "type": "chest",
+        "bonus": {
+            "power": 4600000,
+            "maxHP": 13800000,
+            "toughness": 120000000,
+            "hpRegen": 3600000,
+            "eBars": 206000,
+            "eCap": 23200,
+            "mBars": 206000,
+            "mCap": 23200,
+            "threePower": 236
+        }
+    },
+    {
+        "id": "324_TrapPants",
+        "name": "Trap Pants",
+        "set": "Exile",
+        "type": "legs",
+        "bonus": {
+            "power": 4400000,
+            "maxHP": 13200000,
+            "toughness": 118000000,
+            "hpRegen": 3540000,
+            "ePower": 240000,
+            "mPower": 240000,
+            "threeCap": 26,
+            "threeBars": 220
+        }
+    },
+    {
+        "id": "325_AllTheOtherTitansMissingShoes",
+        "name": "All the other Titans' Missing Shoes",
+        "set": "Exile",
+        "type": "boots",
+        "bonus": {
+            "power": 4400000,
+            "maxHP": 13200000,
+            "toughness": 116000000,
+            "hpRegen": 3480000,
+            "eCap": 23200,
+            "ePower": 236000,
+            "mCap": 23200,
+            "mPower": 236000,
+            "threePower": 226
+        }
+    },
+    {
+        "id": "326_TheDiskOfDueling",
+        "name": "The Disk of Dueling",
+        "set": "Exile",
+        "type": "weapon",
+        "bonus": {
+            "power": 1240000000,
+            "maxHP": 3720000000,
+            "toughness": 50000000,
+            "hpRegen": 1500000,
+            "eBars": 200000,
+            "mBars": 200000,
+            "threeCap": 26,
+            "threePower": 236
+        }
+    },
+    {
+        "id": "327_TheJoker",
+        "name": "The Joker",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 133200000,
+            "maxHP": 399600000,
+            "toughness": 133200000,
+            "hpRegen": 2996000,
+            "cooking": 20000000,
+            "threeCap": 80,
+            "wishSpeed": 10
+        }
+    },
+    {
+        "id": "328_AntlersOfTheExile",
+        "name": "Antlers of the Exile",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 160000000,
+            "maxHP": 480000000,
+            "eCap": 24000,
+            "ePower": 200000,
+            "mCap": 24000,
+            "mPower": 200000,
+            "threePower": 240
+        }
+    },
+    {
+        "id": "329_TheCreditCard",
+        "name": "The Credit Card",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "eBars": 340000,
+            "goldDrops": 500000,
+            "mBars": 340000,
+            "questDrops": 10
+        }
+    },
+    {
+        "id": "330_TentacleOfTheExile",
+        "name": "Tentacle of the Exile",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 220000000,
+            "maxHP": 660000000,
+            "toughness": 200000000,
+            "hpRegen": 6000000,
+            "ePower": 230000,
+            "mPower": 380000,
+            "threeCap": 36,
+            "threeBars": 360
+        }
+    },
+    {
+        "id": "331_TheSkipCard",
+        "name": "The Skip Card",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 240000000,
+            "maxHP": 720000000,
+            "toughness": 240000000,
+            "hpRegen": 7200000,
+            "ePower": 560000,
+            "mPower": 560000,
+            "nguSpeed": 500,
+            "threePower": 520
+        }
+    },
+    {
+        "id": "332_AntennaeOfTheExile",
+        "name": "Antennae of the Exile",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 200000000,
+            "maxHP": 600000000,
+            "toughness": 200000000,
+            "hpRegen": 6000000,
+            "eCap": 52000,
+            "hackSpeed": 24,
+            "mCap": 52000,
+            "threePower": 540
+        }
+    },
+    {
+        "id": "333_TheBlackLotus",
+        "name": "The Black Lotus",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 300000000,
+            "maxHP": 900000000,
+            "toughness": 300000000,
+            "hpRegen": 9000000,
+            "eCap": 80000,
+            "mCap": 80000,
+            "threeCap": 90,
+            "wishSpeed": 40
+        }
+    },
+    {
+        "id": "334_BusterOfTheExile",
+        "name": "Buster of the Exile",
+        "set": null,
+        "type": "accessory",
+        "bonus": {
+            "power": 500000000,
+            "maxHP": 1500000000,
+            "toughness": 500000000,
+            "hpRegen": 15000000,
+            "ePower": 800000,
+            "hackSpeed": 40,
+            "mPower": 800000,
+            "threePower": 800
         }
     }
 ]

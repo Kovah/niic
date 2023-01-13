@@ -1,17 +1,17 @@
 <template>
-    <div v-if="store.itemSelector.isOpen" class="absolute z-30 left-0 top-0 right-0 bottom-0">
-        <div class="max-h-full mx-auto py-8 overflow-y-auto">
-            <div class="relative z-40 w-full max-w-3xl bg-gray-800 rounded-xl border border-gray-900 mx-auto shadow-xl">
-                <div class="rounded-xl border border-gray-700 p-4">
+    <div v-if="store.itemSelector.isOpen" class="modal-wrapper">
+        <div class="modal-container">
+            <div class="modal">
+                <div class="modal-inner">
 
                     <div class="mb-4 flex items-center justify-between">
                         <h2 class="h2">Item Select</h2>
                         <button class="btn" v-on:click="closeSelector">Close</button>
                     </div>
 
-                    <div class="text-xs text-gray-400 mb-1">Filter Items</div>
-                    <div class="flex mb-4">
+                    <div class="flex items-end mb-4">
                         <div>
+                            <div class="text-xs ml-1 mb-1 text-gray-400">Filter Items</div>
                             <button class="btn" v-on:click="toggleFilter('head', $event)">Head</button>
                             <button class="btn" v-on:click="toggleFilter('chest', $event)">Chest</button>
                             <button class="btn" v-on:click="toggleFilter('legs', $event)">Legs</button>
@@ -19,7 +19,9 @@
                             <button class="btn" v-on:click="toggleFilter('weapon', $event)">Weapon</button>
                             <button class="btn" v-on:click="toggleFilter('accessory', $event)">Accessory</button>
                         </div>
-                        <div class="ml-auto">
+                        <div class="ml-auto text-right">
+                            <input type="text" name="search" class="input mb-1" placeholder="Search items..."
+                                v-on:input="filterByName">
                             <select class="select" name="set" id="set" v-on:change="filterBySet">
                                 <option value="">Select Set</option>
                                 <option value="2D">2D</option>
@@ -78,6 +80,7 @@ export default {
         return {
             store,
             typeFilters: [],
+            nameFilter: null,
             setFilter: null
         };
     },
@@ -89,6 +92,9 @@ export default {
             }
             if (this.setFilter !== null) {
                 items = items.filter((item) => item.set === this.setFilter);
+            }
+            if (this.nameFilter !== null) {
+                items = items.filter((item) => item.name.toLowerCase().includes(this.nameFilter));
             }
             return items;
         }
@@ -105,6 +111,10 @@ export default {
         filterBySet (event) {
             const newSet = event.target.options[event.target.selectedIndex].value;
             this.setFilter = newSet !== '' ? newSet : null;
+        },
+        filterByName (event) {
+            const newName = event.target.value;
+            this.nameFilter = newName !== '' ? newName.toLowerCase() : null;
         },
         applyItem (item) {
             store.setItem(item);

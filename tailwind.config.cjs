@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 /** @type {import('tailwindcss').Config} */
@@ -19,7 +20,10 @@ module.exports = {
         },
         extend: {
             colors: {
-                gray: colors.zinc,
+                gray: {
+                    ...colors.zinc,
+                    '950': '#101018'
+                },
                 'ngu-primary': '#6386a4',
                 'ngu-primary-dark': '#265174',
                 'ngu-energy': '#55ce7e',

@@ -18,7 +18,7 @@
     }
 
     .container {
-        @apply px-3;
+        @apply sm:px-3;
     }
 
     .icon {
@@ -49,11 +49,11 @@
     }
 
     .app {
-        @apply bg-gray-800 rounded-xl border border-black;
+        @apply max-w-full bg-gray-800 border-y sm:border border-black sm:rounded-xl ;
     }
 
     .app-inner {
-        @apply border border-gray-700 rounded-xl p-4;
+        @apply max-w-full border-y sm:border border-gray-700 sm:rounded-xl p-3 sm:p-4 overflow-x-auto;
     }
 
     .btn {
@@ -87,12 +87,16 @@
         @apply text-gray-500;
     }
 
+    .stats-table {
+        @apply w-full table-fixed text-xs sm:text-sm;
+    }
+
     .stats-table td {
-        @apply py-0.5 px-2 text-sm;
+        @apply py-0.5 px-1 sm:px-2 align-top;
     }
 
     .stats-table th {
-        @apply py-0.5 px-2 text-left text-xs font-bold uppercase;
+        @apply py-0.5 px-1 sm:px-2 text-left text-xs font-bold uppercase;
     }
 
     .stats-table .bonus {
@@ -109,7 +113,7 @@
     }
 
     .single-item {
-        @apply h-[50px] w-[50px] text-xs break-words overflow-hidden cursor-pointer;
+        @apply h-[40px] w-[40px] sm:h-[50px] sm:w-[50px] text-xxs break-words overflow-hidden cursor-pointer;
     }
 
     .modal-wrapper {
@@ -117,7 +121,7 @@
     }
 
     .modal-container {
-        @apply max-h-full mx-auto py-8 overflow-y-auto overscroll-y-contain;
+        @apply max-h-full mx-auto px-3 sm:px-0 py-8 overflow-y-auto overscroll-y-contain;
     }
 
     .modal {

@@ -2,7 +2,7 @@
 import Stats from './Stats.vue';</script>
 
 <template>
-    <div>
+    <div class="min-w-[22ch]">
         <div class="mb-4 border border-gray-900 w-20 h-20 cursor-pointer rounded"
             v-on:click="openItemSelector">
             <div class="border border-gray-700 w-full h-full rounded flex items-center justify-center">

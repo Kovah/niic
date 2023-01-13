@@ -9,9 +9,9 @@
                         <button class="btn" v-on:click="closeSelector">Close</button>
                     </div>
 
-                    <div class="flex items-end mb-4">
+                    <div class="sm:flex items-end mb-4">
                         <div>
-                            <div class="text-xs ml-1 mb-1 text-gray-400">Filter Items</div>
+                            <div class="text-xxs sm:text-xs ml-1 mb-1 text-gray-400">Filter Items</div>
                             <button class="btn" v-on:click="toggleFilter('head', $event)">Head</button>
                             <button class="btn" v-on:click="toggleFilter('chest', $event)">Chest</button>
                             <button class="btn" v-on:click="toggleFilter('legs', $event)">Legs</button>
@@ -19,7 +19,7 @@
                             <button class="btn" v-on:click="toggleFilter('weapon', $event)">Weapon</button>
                             <button class="btn" v-on:click="toggleFilter('accessory', $event)">Accessory</button>
                         </div>
-                        <div class="ml-auto text-right">
+                        <div class="mt-2 sm:mt-0 sm:ml-auto sm:text-right">
                             <input type="text" name="search" class="input mb-1" placeholder="Search items..."
                                 v-on:input="filterByName">
                             <select class="select" name="set" id="set" v-on:change="filterBySet">

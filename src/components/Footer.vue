@@ -1,5 +1,5 @@
 <template>
-    <footer class="my-5  text-gray-500 text-xs">
+    <footer class="my-5 px-3 text-gray-500 text-xs">
         <p>
             The NIIC (NGU Idle Item Comparator) lets you compare two items from the game <a href="https://store.steampowered.com/app/1147690/NGU_IDLE/" rel="noreferrer nofollow" class="underline hover:text-gray-300">NGU Idle</a>.<br>
             The item stats are calculated based on their maximum bonus when upgraded to level 100.

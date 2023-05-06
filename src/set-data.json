@@ -1,0 +1,37 @@
+[
+    {
+        "id": "set_sewers",
+        "name": "Sewers (Set)",
+        "items": [
+            "40_CrappyHelmet",
+            "41_CrappyChestplate",
+            "42_CrappyLeggings",
+            "43_CrappyBoots"
+        ],
+        "bonus": {
+            "power": 52,
+            "maxHP": 156,
+            "toughness": 52,
+            "hpRegen": 1.56,
+            "eSpeed": 56
+        }
+    },
+    {
+        "id": "set_forest",
+        "name": "Forest (Set)",
+        "items": [
+            "47_ForestHelmet",
+            "48_ForestChestplate",
+            "49_ForestLeggings",
+            "50_ForestBoots"
+        ],
+        "bonus": {
+            "power": 176,
+            "maxHP": 528,
+            "toughness": 176,
+            "hpRegen": 5.28,
+            "ePower": 74,
+            "eSpeed": 96
+        }
+    }
+]

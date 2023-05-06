@@ -131,4 +131,8 @@
     .modal-inner {
         @apply rounded-xl border border-gray-700 p-4;
     }
+
+    .badge {
+        @apply py-0.5 px-1 text-xs rounded text-gray-200 bg-ngu-primary;
+    }
 }

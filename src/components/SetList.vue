@@ -9,7 +9,7 @@
 
         <div class="grid grid-cols-1 gap-4">
             <div class="cursor-pointer" v-for="set in setList" v-on:click="appySet(set)">
-                <div class="name">{{ set.name }}</div>
+                <div class="mb-1">{{ set.name }}</div>
                 <div class="ml-auto flex items-center flex-wrap">
                     <div class="single-item" v-for="item in set.items">
                         <img :src="'/items/' + item + '.png'" :alt="item" loading="lazy">

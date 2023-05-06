@@ -7,6 +7,7 @@ import ItemSelector from './ItemSelector.vue';
     <main class="app">
         <div class="app-inner">
             <h1 class="text-2xl font-bold tracking-tight">NIIC - NGU Idle Item Comparator</h1>
+            <p class="my-4 text-sm text-red-400" v-if="itemVsSet">You are comparing an Item versus a whole Set!</p>
             <div class="w-auto mt-4 flex gap-4 md:gap-8 ">
                 <Item :item="item" :id="index" v-for="(item, index) in store.items"/>
             </div>
@@ -24,6 +25,12 @@ export default {
         return {
             store
         };
+    },
+    computed: {
+        itemVsSet () {
+            return this.store.items[0].id?.startsWith('set') && !this.store.items[1].id?.startsWith('set')
+                || !this.store.items[0].id?.startsWith('set') && this.store.items[1].id?.startsWith('set');
+        }
     }
 };
 </script>

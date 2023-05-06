@@ -6,9 +6,19 @@
             "40_CrappyHelmet",
             "41_CrappyChestplate",
             "42_CrappyLeggings",
-            "43_CrappyBoots"
+            "43_CrappyBoots",
+            "44_RustySword",
+            "45_GrossRing",
+            "46_CrackedAmulet"
         ],
         "bonus": {
+            "power": 40,
+            "maxHP": 120,
+            "toughness": 40,
+            "hpRegen": 1.2,
+            "eSpeed": 16
+        },
+        "bonusWithAccessories": {
             "power": 52,
             "maxHP": 156,
             "toughness": 52,
@@ -23,15 +33,60 @@
             "47_ForestHelmet",
             "48_ForestChestplate",
             "49_ForestLeggings",
-            "50_ForestBoots"
+            "50_ForestBoots",
+            "51_KokiriBlade",
+            "52_MossyRing"
         ],
         "bonus": {
+            "power": 160,
+            "maxHP": 480,
+            "toughness": 160,
+            "hpRegen": 4.8,
+            "ePower": 74,
+            "eSpeed": 56
+        },
+        "bonusWithAccessories": {
             "power": 176,
             "maxHP": 528,
             "toughness": 176,
             "hpRegen": 5.28,
             "ePower": 74,
             "eSpeed": 96
+        }
+    },
+    {
+        "id": "set_cave",
+        "name": "Cave (Set)",
+        "items": [
+            "54_BlueCheeseHelmet",
+            "55_GoudaChestplate",
+            "56_SwissLeggings",
+            "57_LimburgerBoots",
+            "58_MoleHammer",
+            "59_HavartiRing",
+            "60_CheddarAmulet",
+            "61_CombatCheese"
+        ],
+        "bonus": {
+            "power": 400,
+            "maxHP": 1200,
+            "toughness": 400,
+            "hpRegen": 12,
+            "eBars": 30,
+            "mPower": 60,
+            "mSpeed": 40
+        },
+        "bonusWithAccessories": {
+            "power": 470,
+            "maxHP": 1410,
+            "toughness": 470,
+            "hpRegen": 14.1,
+            "eBars": 30,
+            "ePower": 60,
+            "eSpeed": 120,
+            "goldDrops": 20,
+            "mPower": 110,
+            "mSpeed": 90
         }
     }
 ]

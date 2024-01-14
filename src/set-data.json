@@ -88,5 +88,69 @@
             "mPower": 110,
             "mSpeed": 90
         }
+    },
+    {
+        "id": "set_training",
+        "name": "Training (Set)",
+        "items": [
+            "62_ClothHat",
+            "63_ClothShirt",
+            "64_ClothLeggings",
+            "65_ClothBoots",
+            "75_AStick"
+        ],
+        "bonus": {
+            "power": 6,
+            "maxHP": 18,
+            "toughness": 8,
+            "hpRegen": 0.24
+        },
+        "bonusWithAccessories": {
+            "power": 6,
+            "maxHP": 18,
+            "toughness": 8,
+            "hpRegen": 0.24
+        }
+    },
+    {
+        "id": "set_hsb",
+        "name": "HSB (Set)",
+        "items": [
+            "68_MagitechHelmet",
+            "69_MagitechChestplate",
+            "70_MagitechLeggings",
+            "71_MagitechBoots",
+            "72_MagitechBlade",
+            "73_MagitechRing",
+            "74_MagitechAmulet"
+        ],
+        "bonus": {
+            "power": 1000,
+            "maxHP": 3000,
+            "toughness": 1000,
+            "hpRegen": 30,
+            "eBars": 80,
+            "eCap": 12,
+            "ePower": 50,
+            "goldDrops": 40,
+            "mBars": 70,
+            "mCap": 8,
+            "mPower": 50,
+            "mSpeed": 40
+        },
+        "bonusWithAccessories": {
+            "power": 1090,
+            "maxHP": 3270,
+            "toughness": 1090,
+            "hpRegen": 32.7,
+            "eBars": 80,
+            "eCap": 13.8,
+            "ePower": 110,
+            "goldDrops": 80,
+            "mBars": 70,
+            "mCap": 8,
+            "mPower": 130,
+            "mSpeed": 40
+        }
     }
 ]
